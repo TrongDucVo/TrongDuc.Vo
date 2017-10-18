@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Background.png</file>
+        <file>Clock.qml</file>
+        <file>Dynammic_TrongDuc.pro</file>
+        <file>HourNeedle.qml</file>
+        <file>List__view.qml</file>
+        <file>main_clock.qml</file>
+        <file>MinuteNeedle.qml</file>
+        <file>SecondNeedle.qml</file>
+        <file>Studentrow.qml</file>
+        <file>main.cpp</file>
+        <file>assignment03_signals.qml</file>
+    </qresource>
+</RCC>
