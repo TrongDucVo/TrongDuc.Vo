@@ -1,0 +1,5 @@
+Connection QML element
+
+Create a program and add actions on : 
+after click, press, press & hold on button
+Add new signal to custom

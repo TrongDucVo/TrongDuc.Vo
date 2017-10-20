@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>Integers (numbers without a period or exponent notation) are accurate up to 15 digits:</p>
+
+<p id="demo1">aa</p>
+<p id="demo2">bb</p>
+
+<script>
+
+//Function reverse
+function reverse(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
+
+//Function check palindrome
+function check_palindrome(str)
+{
+	var cstr = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+    var ccount = 0;
+    if(cstr === ""){
+    	document.getElementById("demo2").innerHTML = "Nothing found";
+        return false;
+    }
+    if((cstr.length) %2 === 0)
+    {
+    	ccount = (cstr.length)/2;
+    }
+    else
+    {
+    	if( cstr.length === 1)
+        {
+        	document.getElementById("demo2").innerHTML = "This is a palindrome with one word";
+            return true;
+        }
+        else
+        {
+        	ccount = (cstr.length -1)/2;
+        }
+    }
+    for(var x = 0; x < ccount; x++)
+    {
+    	if(cstr[x] != cstr.slice(-1-x)[0])
+        {
+        	document.getElementById("demo2").innerHTML = "This is not a palindrome";
+        	return false;
+        }
+    }
+    document.getElementById("demo2").innerHTML = "This is a palindrome"
+    return true
+}
+
+//Function substring
+function substrings(str1)
+{
+var array1 = [];
+  for (var x = 0, y=1; x < str1.length; x++,y++) 
+  {
+   array1[x]=str1.substring(x, y);
+    }
+var combi = [];
+var temp1= "";
+var temp2= "";
+var slent = Math.pow(2, array1.length);
+
+for (var i = 1; i < 4;i+=2)
+{
+    temp1= "";
+    for (var j=0;j<array1.length;j++) {
+        if ((i & Math.pow(2,j))){ 
+            temp1 += array1[j];
+        }
+    }
+    if (temp1 !== "")
+    {
+        combi.push(temp1);
+    }
+  console.log(combi.join("\n"));
+}
+for (var p = 7; p > 3 ; p--)
+{
+    temp2= "";
+    for (var j=0;j<array1.length;j++) {
+        if ((p & Math.pow(2,j)) && (p != 5)){ 
+            temp2 += array1[j];
+        }
+    }
+    if (temp2 !== "")
+    {
+        combi.push(temp2);
+    }
+  console.log(combi.join("\n"));
+}
+}
+
+//Function list the properties of an object
+function values(obj) 
+ {
+    if (!isObject(obj)) return [];
+    if (Object.values) return Object.values(obj);
+    var values = [];
+    for (var value in obj) if (_.has(obj, value)) values.push(value);
+    return values;
+  }
+function isObject(obj) 
+{
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+}
+
+//Function get length of object
+function sizeOfObject(obj){
+	var sizeObject = 0;
+    var value;
+	for (value in obj)
+    {
+    	if (obj.hasOwnProperty(value))
+        {
+        	sizeObject ++;
+        }
+    }
+    return sizeObject
+}
+var student = { 
+name : "David Rayy", 
+sclass : "VI", 
+rollno : 12 };
+var objsize =sizeOfObject(student);
+
+document.write(objsize);
+document.write((values({name: "David Rayy", clase: "VI", rollno: "12"})));
+document.write(substrings("dog"))
+document.getElementById("demo1").innerHTML = reverse(12345)
+check_palindrome('HelloWorl')
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,9 @@
+Tienthanh.pham answer the quiz
+
+1. C/ triggeredOnStart defaults to false.
+
+2. B/ signal is emitted when the Timer times out
+
+3. A/ restart Starts the timer
+
+4. B/ If the Timer is running and one of its properties is changed, the elapsed time will be reset

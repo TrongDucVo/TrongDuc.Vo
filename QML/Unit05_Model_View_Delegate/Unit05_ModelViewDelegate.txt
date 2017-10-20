@@ -1,0 +1,3 @@
+Model View Delegate
+
+Create student mark management application

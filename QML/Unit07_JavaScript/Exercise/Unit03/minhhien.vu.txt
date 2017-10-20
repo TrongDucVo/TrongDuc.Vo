@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+<p id="demo"></p>
+<script>
+//Function check array
+function check_array(str){
+	if(toString.call(str) === "[object Array]"){
+        return true;
+        }
+    else{
+    	return false;
+	}
+}
+var x = 'w3schools'
+var y = [1, 2, 3, 4, 5]
+document.write(check_array(y))
+document.write(check_array(x))
+
+//Function check most frequent
+check_frequent = function(array){
+	var mf = 1;
+    var m = 0;
+    var item;
+    for (var i = 0; i < array.length; i++)
+    {
+        for (var j = i; j < array.length; j++)
+        {
+        	if(array[i] == array[j])
+            {
+            	m += 1;
+            }
+            if (mf < m)
+            {
+            	mf = m;
+                item = array[i];
+            }
+        }
+        m = 0;
+    }
+    return (item+" ( " +mf +" times ) ");
+}
+var array = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]
+document.write(check_frequent(array))
+
+//Function check date prototype
+function check_date(date)
+{
+	if(Object.prototype.toString.call(date) === "[object Date]")
+    	return true;
+    return false;
+}
+var x = "October 13, 2014 11:13:00"
+var y = new Date(86400000)
+var z = new Date(99,5,24,11,33,30,0)
+var t = [1, 2, 4, 0]
+document.write(check_date(x))
+document.write(check_date(y))
+document.write(check_date(z))
+document.write(check_date(t))
+
+//Function get month
+function get_month(date){
+	month_list = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    return month_list[date.getMonth()];
+}
+var x = new Date("10/11/2009")
+var y = new Date("11/13/2014")
+document.write(get_month(x))
+document.write(get_month(y))
+
+//Function find out maximum number in an array
+function get_maximum(array){
+	if(toString.call(array) !== "[object Array]"){
+    	return false;
+    }
+    return Math.max.apply(null, array);
+}
+var x = [12,34,56,1]
+var y = [-12,-34,0,-56,-1]
+document.getElementById("demo1").innerHTML = (get_maximum(x))
+document.getElementById("demo2").innerHTML = (get_maximum(y))
+</script>
+</body>
+</html> 

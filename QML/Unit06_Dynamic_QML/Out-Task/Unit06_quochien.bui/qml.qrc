@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>Custom.qml</file>
+        <file>MarkManagerment.qml</file>
+        <file>Student.qml</file>
+        <file>Timer.qml</file>
+        <file>Clock.qml</file>
+        <file>Clockwise.qml</file>
+        <file>images/clock.png</file>
+        <file>images/clock1.png</file>
+        <file>images/hanoi.jpg</file>
+        <file>images/hour.png</file>
+        <file>images/minute.png</file>
+        <file>images/newyork.jpg</file>
+        <file>images/paris.jpg</file>
+        <file>images/second.png</file>
+        <file>images/bg.jpg</file>
+        <file>images/welcome.png</file>
+        <file>Connections.qml</file>
+        <file>page.qml</file>
+        <file>images/soccer_ball.png</file>
+        <file>FluidElement.qml</file>
+    </qresource>
+</RCC>

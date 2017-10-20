@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to reverse a number 32243 .</p>
+
+
+
+<button onclick="myFunction()">Try it</button>
+
+
+<p id="demo"></p>
+
+
+
+<h4> Input Text : </h4><input id="numb">
+
+<button type="button" onclick="validateForm()">Submit</button>
+
+
+<h2>Generates all combinations of a string(input) : </h2>
+<p id="bai3"></p>
+
+<h2>4.  Write a JavaScript program to list the properties of a JavaScript object : </h2>
+<p id="bai4"></p>
+
+<h2>5.  Write a JavaScript program to get the length of an JavaScript object : </h2>
+<p id="bai5"></p>
+
+
+<script>
+
+//1.    Write a JavaScript function that reverse a number.
+
+function myFunction() {
+
+    var x = 32243 ;
+    var str = x.toString() ;
+
+    var n = str.length;
+    var rev ="" ;
+    for(var i = n-1 ; i>=0; i--)
+    {
+        rev += str.charAt(i);
+    }
+    document.getElementById("demo").innerHTML = rev ;
+}
+
+// 2.   Write a JavaScript function that checks whether a passed string is palindrome or not?
+function validateForm() {
+
+ //   var x = document.forms["myForm"]["fname"].value;
+      x = document.getElementById("numb").value;
+    var n = x.length ;
+    var check = 1;
+
+
+    for(var i = 0 ; i <= n/2 ; i++)
+    {
+        if(x.charAt(i) != x.charAt(n-i -1) )
+        {
+            check = 0 ;
+            break ;
+        }
+
+    }
+    if (check == 0 ) {
+        alert("This string is not Palindrome ! ");
+    }
+    else{
+        alert("This string is Palindrome ! ");
+    }
+
+
+
+
+  /*
+    3.  Write a JavaScript function that generates all combinations of a string. Example string : 'dog'
+Expected Output : d,do,dog,o,og,g
+*/
+
+  var chuoi ="" ;
+
+  for(var i = 0 ; i <= n - 1 ; i++)
+  {
+    var t = n - i ;
+
+    while(t > 0)
+    {
+        chuoi += x.substr(i,t)+",";
+        t-- ;
+
+    }
+
+
+  }
+
+ document.getElementById("bai3").innerHTML = chuoi ;
+
+
+
+
+}
+
+
+
+
+
+
+//4.    Write a JavaScript program to list the properties of a JavaScript object. Go to the editor
+
+var student = {
+name : "David Rayy",
+sclass : "VI",
+rollno : 12 };
+
+ document.getElementById("bai4").innerHTML = Object.keys(student) ;
+
+
+ //5.   Write a JavaScript program to get the length of an JavaScript object. Go to the editor
+
+ document.getElementById("bai5").innerHTML = Object.keys(student).length ;
+
+
+
+</script>
+
+
+
+</body>
+</html>

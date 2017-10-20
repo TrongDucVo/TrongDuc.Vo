@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Clock.qml</file>
+        <file>lesson03.qml</file>
+        <file>lesson04.qml</file>
+        <file>lesson05.qml</file>
+        <file>download.jpg</file>
+    </qresource>
+</RCC>

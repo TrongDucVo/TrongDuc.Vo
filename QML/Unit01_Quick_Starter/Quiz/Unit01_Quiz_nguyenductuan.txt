@@ -1,0 +1,24 @@
+Select the best answer
+
+
+1. A/Column Arranges child items into a column by stacking them on top of each other                            (T)
+
+B/ Column Places its child items next to each other                                                             (F)
+
+
+2. A/ In Grid, If rows or columns set, the other is calculated from the number of child items                   (F)
+
+B/ Grid rows property: number of rows can not be constrained                                                    (F)
+
+C/ Grid columns property: number of columns can be constrained                                                  (T)
+
+
+3. A/ The last child element with focus:false receives the focus if the FocusScope receives the focus           (F)
+
+B/ The last child element with focus:true receives the focus if the FocusScope receives the focus               (T)
+
+
+4. A/ Direction of the flow is controlled using flow and layoutDirection                                        (T)
+
+B/ Flow dont need both width and height                                                                         (F)
+

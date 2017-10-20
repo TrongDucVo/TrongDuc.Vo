@@ -1,0 +1,59 @@
+1.function check_array(input) {
+  if (toString.call(input) === "[object Array]")
+    return true;
+  return false;   
+    };
+document.write(check_array('w3resource'));
+document.write(check_array([1, 2, 4, 0]));
+2.var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+var mf = 1;
+var m = 0;
+var item;
+for (var i=0; i<arr1.length; i++)
+{
+        for (var j=i; j<arr1.length; j++)
+        {
+                if (arr1[i] == arr1[j])
+                 m++;
+                if (mf<m)
+                {
+                  mf=m; 
+                  item = arr1[i];
+                }
+        }
+        m=0;
+}
+document.write(item+" ( " +mf +" times ) ") ;
+3.function checkdate(input)
+{
+	if(Object.prototype.toString.call(input) === "[object Date]")
+    	return true;
+    return false;
+}
+var x = "October 13, 2014 11:13:00"
+var y = new Date(86400000)
+var z = new Date(99,5,24,11,33,30,0)
+var t = [1, 2, 4, 0]
+document.write(checkdate(x))
+document.write(checkdate(y))
+document.write(checkdate(z))
+document.write(checkdate(t))
+4.
+function monthc(dt){
+mlist = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+  return mlist[dt.getMonth()];
+};
+document.write(monthc(new Date("10/11/2009")));
+document.write(monthc(new Date("11/13/2014")));
+5.
+function get_maximum(array){
+	if(toString.call(array) !== "[object Array]"){
+    	return false;
+    }
+    return Math.max.apply(null, array);
+}
+var x = [12,34,56,1]
+var y = [-12,-34,0,-56,-1]
+document.write(get_maximum(x))
+document.write(" <br>")
+document.write(get_maximum(y))

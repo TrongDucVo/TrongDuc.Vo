@@ -1,0 +1,15 @@
+Select the best answer
+
+1. A/The default interval is 2000 milliseconds.
+B/ repeat defaults to true
+C/ triggeredOnStart defaults to false.
+
+2. A/ triggered() signal is emitted when the Timer start
+B/ signal is emitted when the Timer times out
+
+3. A/ restart Starts the timer
+B/ If the timer is not running, calling stop() method has effect
+C/ If the timer is already running, calling this method has no effect
+
+4. A/ If the Timer is running and one of its properties is changed, the elapsed time will be start.
+B/ If the Timer is running and one of its properties is changed, the elapsed time will be reset

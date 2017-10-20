@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="line1"></p>
+<p id="line2"></p>
+<p id="line3"></p>
+<p id="line4"></p>
+
+
+<script>
+//1.	Write a JavaScript program that accept two integers and display the larger.
+var num1 = 5; num2 =3;
+function largerInt(a,b){
+	if (a>b) return a 
+    else return b;
+}
+document.getElementById("line1").innerHTML = "larger of "+ num1+" and " +num2 +" is :"+largerInt(num1,num2);
+
+//2.	Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen. 
+
+function getOddEven(){
+	var str="";
+	for (var i=0; i<=15;i++){
+		if (i===0)  str+=i+" is even. "
+    	else if (i%2===0)  str += i+" is even. "
+        else  str+=i+" is odd.";  
+    }
+    return str;
+}
+document.getElementById("line2").innerHTML = getOddEven();
+
+//3.Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz"
+function getFizzBuzz(){
+	var str="";
+	for ( var i = 1; i <= 100; i++ ) {
+    	if ((i%3===0)&&(i%5===0)) str+=i+" : FizzBuzz. "
+        else if (i%3===0) str+=i+" : Fizz. "
+        else if (i%5===0) str+=i+" :Buzz. ";
+    }
+    return str;
+}
+document.getElementById("line3").innerHTML = getFizzBuzz();
+
+//4.	Write a JavaScript program to find the armstrong numbers of 3 digits. 
+
+function getArmstrongNumber(){
+	var str="";
+    for (var i=1;i<10;i++)
+    {
+     for (var j=0;j<10;j++)
+     {
+      for (var k=0;k<10;k++)
+    	{
+        	var a = Math.pow(i,3) + Math.pow(j,3) +Math.pow(k,3) ;
+            var b = (i*100+ j*10+k);
+            if (a===b) str += a +" ";
+        }
+      }
+    } 
+    return str;
+}
+document.getElementById("line4").innerHTML ="Armstrong number are " + getArmstrongNumber();
+
+//5.Write a JavaScript program to construct the following pattern, using a nested for loop.
+function getPattern(){
+	var str="";
+	for(var i=0;i<6;i++)
+    	{
+    	for(var j=0;j<i;j++) str+="*";
+      	document.write(str+'<br>');
+        str ="";
+        }        
+}
+getPattern();
+</script>
+
+</body>
+</html>

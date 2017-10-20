@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta charset="utf-8">
+<p id="demo"></p>
+
+<script>
+//bai1
+function array(input){
+  if (toString.call(input) === "[object Array]")
+    return true;
+  return false;   
+    };
+document.write(array([1, 2, 4, 0]) + "<br>");
+document.write(array('w3resource') + "<br>" );
+
+//bai2
+var array=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+var mf = 1;
+var count = 0;
+var item;
+for (var i=0; i<array.length; i++)
+{
+        for (var j=i; j<array.length; j++)
+        {
+                if (array[i] == array[j]){
+                 count++;}
+                if (mf<count)
+                {
+                  mf=count; 
+                  item = array[i];
+                }
+        }
+        count=0;
+}
+document.write(item +" ( " +mf +" times ) " + "<br>");
+
+//bai3
+function date(input) {
+  if ( Object.prototype.toString.call(input) === "[object Date]" ) 
+    return true;
+  return false;   
+    };
+
+document.write(date("October 13, 2014 11:13:00") + "<br>");
+document.write(date(new Date(86400000))+ "<br>");
+document.write(date(new Date(99,5,24,11,33,30,0)) + "<br>");
+document.write(date([1, 2, 4, 0]) + "<br>");
+
+//bai4
+
+function month(dt){
+mlist = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+  return mlist[dt.getMonth()];
+};
+document.write(month(new Date("10/11/2009")) + "<br>");
+document.write(month(new Date("11/13/2014")) + "<br>");
+
+
+//bai5
+
+function max(input) {
+     if (toString.call(input) !== "[object Array]")  
+       return false;
+  return Math.max.apply(null, input);
+	}
+
+document.write(max([12,34,56,1]) + "<br>");
+document.write(max([-12,-34,0,-56,-1]) + "<br>");
+</script>
+
+</body>
+</html>

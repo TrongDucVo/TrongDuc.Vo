@@ -1,0 +1,7 @@
+Select the best answer
+
+1.C/ Use model which can be anything such as Number of items to instantiate, Fully blown model gathering data form the Internet
+
+2. B/ ListModel is Collection of ListElement items
+
+

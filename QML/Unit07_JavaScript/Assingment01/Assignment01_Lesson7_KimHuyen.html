@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assignment 01 JavaScript </h2>
+
+<p id="demo"></p>
+<p>  Printf Volvo </p>
+<p id ="vol"></p>
+<p>  Create a variable called number, assign the value 50 to it, and display it : </p>
+<p id ="num"></p>
+<p> Display the sum of 5 + 10, using two variables x and y: </p>
+<p id ="sum"></p><br>
+
+<p>  Create a third variable called z, assign x + y to it, and display it : </p>
+
+<p id ="sum2"></p>
+<p>Display the difference of 10 - 5, using two variables x and y : </p>
+<p id= "defe"></p>
+
+<p> Display the product of 10 * 5, using two variables x and y : </p>
+
+<p id = "multi"></p>
+
+<p>Display the result of 10 / 5, using two variables x and y:</p>
+<p id = "division"></p>
+
+<p>Find the remainder when 15 is divided by 9, using two variables x and y : </p>
+<p id ="divi"></p>
+<script>
+document.getElementById("demo").innerHTML = "Hello World ";
+//document.getElementById("demo").innerHTML = "Comment ";
+/*document.getElementById("demo").innerHTML = "Comment "; */
+
+
+
+
+// 3.	Create a variable called carName, assign the value "Volvo" to it, and display it.
+
+var carName = "Volvo";
+document.getElementById("vol").innerHTML = carName ;
+
+
+//4.	Create a variable called number, assign the value 50 to it, and display it.
+
+var number = 50 ;
+document.getElementById("num").innerHTML = number
+
+
+
+  /* 5.	The code below should display "Volvo" - Fix it.
+
+<p id="demo">Display the result here.</p>
+
+<script>
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carname;  -> fix carname = carName
+
+ */
+
+//6.	Display the sum of 5 + 10, using two variables x and y.
+
+var x = 10 , y = 5 ;
+
+document.getElementById("sum").innerHTML = x+y ;
+
+//7.	Create a third variable called z, assign x + y to it, and display it
+
+var z = x +y ;
+document.getElementById("sum2").innerHTML = z ;
+
+
+
+/* 8.	Use a single var keyword to create three variables with the following values:
+firstName = "John"
+lastName = "Doe"
+age = 35
+*/
+
+var firstName , lastName , age ;
+firstName = "John"
+lastName = "Doe"
+age = 35
+
+//9.	Display the difference of 10 - 5, using two variables x and y.
+
+document.getElementById("defe").innerHTML = x-y ;
+
+// 10 Display the product of 10 * 5, using two variables x and y.
+document.getElementById("multi").innerHTML = x*y ;
+
+
+//11.	 Display the result of 10 / 5, using two variables x and y.
+
+document.getElementById("division").innerHTML = x/y ;
+
+//12.	 Find the remainder when 15 is divided by 9, using two variables x and y.
+
+var x2 = 15 , y2 = 9 ;
+document.getElementById("divi").innerHTML = x2%y2 ;
+
+// 13.	 Use the += operator to add a value of 5 to the variable x.
+
+x+= 5;
+
+// 14.	 Use the -= operator to subtract a value of 5 from the variable x.
+
+x -= 5 ;
+
+//15 . Use the *= operator to multiply the variable x with 5.
+ x *= 5 ;
+
+
+ // 16 . Use the /= operator to divide the variable x with 5.
+
+ x /=5 ;
+
+ // Use the %= operator to assign a remainder of 10 / 3 to the variable x.
+
+ x  = 10%3 ;
+
+</script>
+
+
+
+
+</body>
+</html>

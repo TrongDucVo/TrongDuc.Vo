@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>CustomRow.qml</file>
+        <file>Parrallel_Car_Bangbang.qml</file>
+        <file>Clock.qml</file>
+        <file>Clocks.qml</file>
+        <file>ListPerson.qml</file>
+        <file>main_bai5.qml</file>
+        <file>qml_signal_slot.qml</file>
+        <file>qml_signal_slot.qmlc</file>
+        <file>Timer_Clock_bangta.qml</file>
+        <file>Timer_Clock_bangta.qmlc</file>
+        <file>image02/arrow.png</file>
+        <file>image02/background.png</file>
+        <file>image02/center.png</file>
+        <file>image02/clock.png</file>
+        <file>image02/clock-night.png</file>
+        <file>image02/hour.png</file>
+        <file>image02/minute.png</file>
+        <file>image02/quit.png</file>
+        <file>image02/second.png</file>
+        <file>assets/ad.jpg</file>
+        <file>assets/mitsubishi_lancer.png</file>
+        <file>assets/road.png</file>
+        <file>assets/soccer_ball.png</file>
+        <file>assets/subaru.png</file>
+        <file>assets/ufo.png</file>
+        <file>assets01/but.jpg</file>
+        <file>assets01/but.png</file>
+        <file>assets01/face.jpg</file>
+        <file>assets01/lg.jpg</file>
+        <file>image01/ball_yellow_2.png</file>
+        <file>unit01.qml</file>
+    </qresource>
+</RCC>

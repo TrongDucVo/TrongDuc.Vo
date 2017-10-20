@@ -1,0 +1,13 @@
+Select the best answer
+
+1. A/ When a signal is emitted, the corresponding signal handler is not invoked
+B/ JavaScript code to be executed when the signal handler is invoked
+
+2. A/ A signal is automatically emitted when the value of a QML property changes
+B/ when the value of a QML property changes, you must update the signal to emitted
+
+3. A/ A signal is emitted by invoking the signal as a field
+B/ Signals can be added to custom QML Types through signal keyword
+
+4. A/ This mechanism enables a signal to be received by a signal handler
+B/ This mechanism enables a signal to be received by a method instead of a signal handler

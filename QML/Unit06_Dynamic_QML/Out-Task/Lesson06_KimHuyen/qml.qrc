@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>background.jpg</file>
+        <file>cun.jpg</file>
+        <file>component.pro</file>
+        <file>component.pro.user</file>
+        <file>deployment.pri</file>
+        <file>Lesson04_KimHuyen.qml</file>
+        <file>list_model.qml</file>
+        <file>main.cpp</file>
+        <file>main2.qml</file>
+        <file>p2.jpg</file>
+        <file>Phap.jpg</file>
+        <file>Practice1.qml</file>
+        <file>qml.qrc</file>
+        <file>Timer.qml</file>
+        <file>usa.jpg</file>
+        <file>VN.jpg</file>
+        <file>CustomRow2.qml</file>
+        <file>CustomRow.qml</file>
+        <file>Intro.qml</file>
+    </qresource>
+</RCC>

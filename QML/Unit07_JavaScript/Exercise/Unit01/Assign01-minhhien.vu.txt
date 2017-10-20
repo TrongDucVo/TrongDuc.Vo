@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>minhhien.vu</h1>
+
+<p id="p1">Display something here!</p>
+<p id="p2">Display something here!</p>
+<p id="p3">Display something here!</p>
+<p id="p4">Display something here!</p>
+<p id="p5">Display something here!</p>
+<p id="p6">Display something here!</p>
+<p id="p7">Display something here!</p>
+<p id="p8">Display something here!</p>
+<p id="p9">Display something here!</p>
+<p id="p10">Display something here!</p>
+<p id="p11">Display something here!</p>
+<p id="p12">Display something here!</p>
+
+
+<script>
+//document.getElementById("p1").innerHTML = "Hello World!"
+var carName ='Volvo'
+var number = 50
+var x = 5, y = 10, z;
+z = x + y;
+var firstName = "John", lastName = "Doe", age = 35;
+
+document.getElementById("p1").innerHTML = carName + ' - ' + number
+document.getElementById("p2").innerHTML = x + y
+document.getElementById("p3").innerHTML = z
+document.getElementById("p4").innerHTML = y - x
+document.getElementById("p5").innerHTML = y * x
+document.getElementById("p6").innerHTML = y / x
+
+var x = 15, y = 9;
+
+document.getElementById("p7").innerHTML = x % y
+document.getElementById("p8").innerHTML = x += 5
+document.getElementById("p9").innerHTML = x -= 5
+document.getElementById("p10").innerHTML = x *= 5
+document.getElementById("p11").innerHTML = x /= 5
+document.getElementById("p12").innerHTML = x = 10%3
+</script>
+</body>
+</html> 

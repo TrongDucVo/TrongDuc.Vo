@@ -1,0 +1,10 @@
+Select the best answer
+
+1. A/ Model View Delegate is model view controller 
+B/ Model used to display data
+C/ Use model which can be anything such as Number of items to instantiate, Fully blown model gathering data form the Internet
+
+2. A/ ListModel is Collection of Element items
+B/ ListModel is Collection of ListElement items
+
+

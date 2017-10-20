@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Properties</h2>
+
+<h3>Reverse string</h3>
+
+<p id="id1"></p>
+<script>
+var input1 = "123456789";
+function reverse(input)
+{
+  var output="";
+  for(var i=0;i<input.length;i++)
+  {
+      output+=input[input.length-1-i];
+  }
+  return output;
+}
+var output1=reverse(input1);
+document.write("input "+ input1+"<br>output "+output1);
+document.write("<br>");
+</script>
+
+<h3>palindrome</h3>
+<script>
+var input2 = "12331";
+
+if(isPalindrome(input2))
+	document.write(input2+" is a palindrome");
+else document.write(input2+" is not a palindrome");
+function isPalindrome(input)
+{
+	if(input==reverse(input)) return 1;
+    else return 0;
+}
+document.write("<br>");
+</script>
+
+<h3>generates all combinations</h3>
+<script>
+var input3 = "dog";
+document.write("String "+input3+"<br>")
+function gen(input)
+{
+	var str;
+    
+	for(var i=0;i<input.length;i++)
+    {
+    	for(var j=i+1;j<=input.length;j++)
+        document.write(input.substring(i,j)+", ");
+    }
+}
+gen(input3);
+document.write("<br>");
+</script>
+
+<h3>show properties</h3>
+<script>
+var student = {
+name : "David Rayy",
+sclass : "VI",
+rollno : 12 };
+
+document.write(Object.getOwnPropertyNames(student));
+</script>
+
+<h3>number of properties</h3>
+<script>
+var student = {
+name : "David Rayy",
+sclass : "VI",
+rollno : 12 };
+
+document.write(Object.keys(student).length);
+</script>
+</body>
+</html>
+

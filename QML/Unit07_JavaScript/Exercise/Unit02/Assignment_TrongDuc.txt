@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assignment2_TrongDuc</h2>
+
+
+<p> the result:</p>
+
+<p id="demo"></p>
+<p id="d2"></p>
+<p id="d3"></p>
+<p id="d4"></p>
+<p id="d5"></p>
+<p id="d6"></p>
+<p id="d7"></p>
+<script>
+//function reverse a number
+function reverse_a_number(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
+var b = reverse_a_number(32243) ;
+document.getElementById('demo').innerHTML =b;
+</script>
+<script>
+//Function check palindrome
+function check_Palindrome(str)
+{
+	var cstr = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+    var ccount = 0;
+    if(cstr === ""){
+    	document.getElementById('d2').innerHTML = "Nothing found";
+        return false;
+    }
+    if((cstr.length) %2 === 0)
+    {
+    	ccount = (cstr.length)/2;
+    }
+    else
+    {
+    	if( cstr.length === 1)
+        {
+        	document.getElementById('d3').innerHTML = "This is a palindrome with one word";
+            return true;
+        }
+        else
+        {
+        	ccount = (cstr.length -1)/2;
+        }
+    }
+    for(var x = 0; x < ccount; x++)
+    {
+    	if(cstr[x] != cstr.slice(-1-x)[0])
+        {
+        	document.getElementById('d4').innerHTML = "This is not a palindrome";
+        	return false;
+        }
+    }
+    document.getElementById('d5').innerHTML = "This is a palindrome"
+    return true
+}
+check_Palindrome('madam');
+check_Palindrome('nurses run');
+check_Palindrome('fox');
+
+</script>
+<script>
+//Function substring
+function substrings(str1)
+{
+var array1 = [];
+  for (var x = 0, y=1; x < str1.length; x++,y++) 
+  {
+   array1[x]=str1.substring(x, y);
+    }
+var combi = [];
+var temp= "";
+
+var slent = Math.pow(2, array1.length);
+
+for (var i = 0; i < slent;i++)
+{
+    temp= "";
+    for (var j=0;j<array1.length;j++) {
+        if ((i & Math.pow(2,j))){ 
+            temp += array1[j];
+        }
+    }
+    if (temp !== "")
+    {
+        combi.push(temp);
+    }
+  console.log(combi.join("\n"));
+}
+var m = substrings("dog");
+document.getElementById('d6').innerHTML = m;
+//substrings("dog");
+</script>
+
+<script>
+//Function list the properties of an object
+function values(obj) 
+ {
+    if (!isObject(obj)) return [];
+    if (Object.values) return Object.values(obj);
+    var values = [];
+    for (var value in obj) if (_.has(obj, value)) values.push(value);
+    return values;
+  }
+function isObject(obj) 
+{
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+}
+</script>
+
+<script>
+//Function get length of object
+Object.objsize = function(Myobj) {
+    var osize = 0, key;
+    for (key in Myobj) {
+        if (Myobj.hasOwnProperty(key)) osize++;
+    }
+    return osize;
+};
+
+var student = { 
+name : "David Rayy", 
+sclass : "VI", 
+rollno : 12 };
+
+var objsize = Object.objsize(student);
+document.getElementById('d7').innerHTML = "Size of the current object : " + objsize;
+
+</script>
+</body>
+</html>
+
+

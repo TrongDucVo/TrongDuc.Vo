@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 02</h2>
+
+<p id="line1"></p>
+<p id="line2"></p>
+<p id="line3"></p>
+<p id="line4"></p>
+<p id="line5"></p>
+<p id="line6"></p>
+
+<script>
+//1
+var x = 32243;
+function myFunction1(number) {
+	var str = number.toString();
+    return str.split('').reverse().join('');
+    }
+
+document.getElementById("line1").innerHTML = "x = " + myFunction1(x);
+
+//2 palindrome
+function palindrome(str) {
+	var str1 = str.toLowerCase().replace(" ","");
+    var str2 = str1.split('').reverse().join('');
+	return str1 === str2;    
+}
+document.getElementById("line2").innerHTML = "nurses run is pandlindrome?  " + palindrome("nurses run");
+document.getElementById("line3").innerHTML = "doctor run is pandlindrome?  " + palindrome("doctor run");
+
+//3 generates all combination string
+// 'dog' -> d,do,dog,o,og,g 
+
+function genStr(str,x,y){
+	var str1 = str.slice(x,y);
+	return str1;
+    }
+  
+var s = "games";
+	s = s.replace(" ","");
+var st = "gen - "+ s + " :";
+for (i=0;i<s.length+1;i++)
+	for (j=i;j<s.length+1;j++)
+    { 
+        st = st +" "+ genStr(s,i,j);
+    }
+document.getElementById("line4").innerHTML = st;
+
+//4 Wirte a js program to list the properties of a js object
+var student = {
+	name:"Lionel Messi",
+    sclass:"35",
+    roolno:12
+};
+function ObjectList(Obj){
+	var key;
+    var keys = "";
+	for (key in Obj){
+        keys = keys + Obj[key]+" ";
+    }
+    return  keys;
+	
+}
+ document.getElementById("line5").innerHTML = ObjectList(student);
+
+//5 Write a JavaScript program to get the length of an JavaScript object.
+
+function ObjectSize(Obj){
+	var osize =0,key;
+    for (key in Obj){
+    	Obj.hasOwnProperty(key);
+    	osize++;
+	}
+    return osize;
+}
+ document.write(ObjectSize(student));  
+
+
+</script>
+
+</body>
+</html>

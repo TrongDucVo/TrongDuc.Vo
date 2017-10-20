@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+
+//Function find the larger interger
+function larger(num1, num2){
+	var num1, num2;
+    num1 = window.prompt("The first number","0");
+    num2 = window.prompt("The second number","0");
+    if(parseInt(num1, 10) > parseInt(num2, 10)){
+    	document.getElementById("demo").innerHTML = "The larger is " + num1;
+    }
+    if(parseInt(num1, 10) < parseInt(num2, 10)){
+    	document.getElementById("demo").innerHTML = "The larger is " + num2;
+    }
+    if(parseInt(num1, 10) == parseInt(num2, 10)){
+    	document.getElementById("demo").innerHTML = "Those are equal ";
+    }
+}
+larger()
+
+//Function defined odd and even number
+function check_oddeven(num){
+	var num = window.prompt("Number: ","0");
+    for (var i = 0; i <= num; i++){
+    	if(i === 0){
+        	document.write(i +  " is even. ");
+        }
+        else if (i % 2 === 0){
+            document.write(i +  " is even. ");
+        }
+        else{
+            document.write(i +  " is odd. ");
+        }
+    }
+}
+check_oddeven()
+
+//Function check multiples
+function check_multiples(num){
+	var num = window.prompt("Number: ","0");
+    for (var i = 1; i <= num; i++){
+    	if((i%3===0) && (i%5===0)){
+        	document.write(i + ": Multiples both of three and five. ")
+        }
+        else if(i%5===0){
+        	document.write(i + ": Multiples of five. ")
+        }
+        else if(i%3===0){
+        	document.write(i + ": Multiples of three. ")
+        }
+        else{
+        	document.write(i + ": Nothing. ")
+        }
+    }
+}
+check_multiples()
+
+//Function check armstrong number
+function check_armstrong(){
+    for (var i = 1; i < 10; ++i){
+    	for (var j = 0; j < 10; ++j){
+        	for (var k = 0; k < 10; ++k){
+            	var pow = (Math.pow(i,3) + Math.pow(j,3) + Math.pow(k,3));
+                var plus = (i*100 + j*10 + k);
+                if (pow == plus){
+                	document.write(pow + ". ");
+                }
+            }
+        }
+    }
+}
+check_armstrong()
+
+//Function print *
+function print(){
+	var chr;
+	for (var x = 1; x < 6; x++){
+    	for (var y = 1; y < x; y++){
+        	chr = chr + ("*");
+        }
+    	document.write(chr);
+        chr = '';
+    }
+}
+print()
+</script>
+</body>
+</html> 

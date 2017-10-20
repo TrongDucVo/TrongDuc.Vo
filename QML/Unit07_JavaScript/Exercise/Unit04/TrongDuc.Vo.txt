@@ -1,0 +1,109 @@
+<html>
+<body>
+<p>Cau1</p>
+
+<script>
+var number1, number2;
+number1 = window.prompt("Input the First integer", "0");
+number2 = window.prompt("Input the second integer", "0");
+                                                 
+if(parseInt(num1, 10) > parseInt(num2, 10)) 
+  { 
+  console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+  }   
+else
+  if(parseInt(num2, 10) > parseInt(num1, 10)) 
+  {
+  console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+  }                  
+else
+  {
+   console.log("The values "+ num1+ " and "+num2+ " are equal.");
+  }
+
+</script>
+
+<p>Cau2</p>
+<script>
+for (var x=0; x<=15; x++) {
+        if (x === 0) {
+                console.log(x +  " is even");
+        }
+        else if (x % 2 === 0) {
+                console.log(x + " is even");   
+        }
+        else {
+                console.log(x + " is odd");
+        }
+}
+</script>
+
+<p>Cau3</p>
+<script>
+
+for ( var i = 1; i <= 100; i++ )
+{
+  if ( i%3 === 0 && i%5 === 0 )
+  {
+    console.log( i + " bla..bla" );
+  }
+  else if ( i%3 === 0 ) 
+  {
+    console.log(i+ " blele" );
+  }
+  else if ( i%5 === 0 ) 
+  {
+    console.log(i+ " blulu" );
+  }
+  else
+  {
+    console.log(i);
+  }
+}
+
+
+</script>
+<p>Cau4</p>
+<script>
+function armstrongnumber() 
+{
+ for (var i = 1; i < 10; ++i) 
+ {
+   for (var j = 0; j < 10; ++j) 
+     {
+        for (var k = 0; k < 10; ++k)
+        {
+          var pow = (Math.pow(i,3) + Math.pow(j,3) + Math.pow(k,3));
+          var plus = (i * 100 + j * 10 +  k);
+          if (pow == plus) 
+           {     
+             console.log(pow);
+            }
+         }
+       }
+    }
+  }
+armstrongnumber();
+
+
+</script>
+
+<p>Cau5</p>
+<script>
+
+var x,y,chr;
+for(x=1; x <=6; x++)
+{
+   for (y=1; y < x; y++)
+     {
+    chr=chr+("*");        
+      }
+ console.log(chr);
+ chr='';    
+}
+
+
+</script>
+
+</body>
+</html> 

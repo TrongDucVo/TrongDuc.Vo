@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>Page1.qml</file>
+        <file>Background.png</file>
+        <file>main.cpp</file>
+        <file>Assign4.qml</file>
+        <file>Clock.qml</file>
+        <file>SignalAssign.qml</file>
+        <file>MangerMark.qml</file>
+        <file>img/back.png</file>
+        <file>img/hour.png</file>
+        <file>img/min.png</file>
+        <file>img/minute.png</file>
+        <file>img/sec.png</file>
+    </qresource>
+</RCC>

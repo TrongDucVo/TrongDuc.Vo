@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>Btn_click.qml</file>
+        <file>ListViewMenu.qml</file>
+        <file>Clock.qml</file>
+        <file>HandClock.qml</file>
+        <file>img/back.png</file>
+        <file>img/back2.png</file>
+        <file>img/hour.png</file>
+        <file>img/min.png</file>
+        <file>img/sec.png</file>
+        <file>img/battery.png</file>
+        <file>img/wireless.png</file>
+        <file>Home.qml</file>
+        <file>MenuItem.qml</file>
+        <file>img/contact.png</file>
+        <file>img/information.png</file>
+        <file>img/messager.png</file>
+        <file>Contact.qml</file>
+        <file>Messager.qml</file>
+        <file>Information.qml</file>
+    </qresource>
+</RCC>

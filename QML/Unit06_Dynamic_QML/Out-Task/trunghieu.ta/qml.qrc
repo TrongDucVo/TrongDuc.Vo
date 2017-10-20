@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>Page1.qml</file>
+        <file>Page2.qml</file>
+        <file>images/apple.png</file>
+        <file>images/assistive touch.png</file>
+        <file>images/assistive touch2.png</file>
+        <file>images/assistive touch3.png</file>
+        <file>images/iconIphone.jpg</file>
+        <file>Custum.qml</file>
+        <file>deployment.pri</file>
+        <file>loader_2.pro</file>
+        <file>main.cpp</file>
+        <file>qml.qrc</file>
+        <file>Touch.qml</file>
+        <file>AppStudentMarkMan.qml</file>
+        <file>Disp_Mark.qml</file>
+        <file>Clock.qml</file>
+        <file>main_clock.qml</file>
+        <file>images/clocks/Clock.gif</file>
+        <file>images/clocks/clock.png</file>
+        <file>images/clocks/Clock_v2.png</file>
+        <file>images/clocks/hour.png</file>
+        <file>images/clocks/it-is-1530_coloring_page_png_468x609_q85.jpg</file>
+        <file>images/clocks/minute.png</file>
+        <file>images/clocks/minute_2.png</file>
+        <file>images/clocks/second.jpg</file>
+        <file>images/clocks/second.png</file>
+        <file>images/clocks/second_1.png</file>
+        <file>images/clocks/second_2.png</file>
+        <file>button.qml</file>
+        <file>signal_connectQML.qml</file>
+        <file>Custum_list.qml</file>
+    </qresource>
+</RCC>

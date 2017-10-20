@@ -1,0 +1,24 @@
+Qt:
+1. Write a program read a string from a file with format: time1:text1,time2:text2,time3:text3....
+Ex:
+12:a,41:d,2:e,5:i,4:10,23:1,1:?,2:d
+
+Req:
+Every "time" seconds print out "text"
+Ex: 
+1s print: ?
+2s print d, e, ?
+4s print 10, ?, d, e
+5s print ?, i
+
+
+
+Solution:
+
+12:a,	41:d,	2:e,	5:i,	4:10,	23:1,	1:?,	2:d
+
+1. read file
+
+2. tim tat ca cac so chia het cho so dau tien, in ra duoi cua no
+
+3. xu ly mang hai chieu, 

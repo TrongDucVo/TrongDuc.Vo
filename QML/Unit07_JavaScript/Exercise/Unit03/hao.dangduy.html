@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assignment 3 - hao.dangduy</h2>
+<p>
+<script>
+// 1. Check array
+function check_array(str){
+	if(toString.call(str) === "[object Array]"){
+        return true;
+        }
+    else{
+    	return false;
+	}
+}
+
+document.write("1. " + check_array('w3schools') + "<br>");
+document.write(check_array([1, 2, 4, 0]));
+</script>
+</p>
+
+<p>
+<script>
+// 2. Check most frequent
+check_frequent = function(array){
+	var mf = 1;
+    var m = 0;
+    var item;
+    for (var i = 0; i < array.length; i++)
+    {
+        for (var j = i; j < array.length; j++)
+        {
+        	if(array[i] == array[j])
+            {
+            	m += 1;
+            }
+            if (mf < m)
+            {
+            	mf = m;
+                item = array[i];
+            }
+        }
+        m = 0;
+    }
+    return ("2. " + item+" (" +mf +" times)");
+}
+var array = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+document.write(check_frequent(array));
+</script>
+</p>
+
+<p>
+<script>
+// Check date prototype
+function check_date(date)
+{
+	if(Object.prototype.toString.call(date) === "[object Date]")
+    	return true;
+    return false;
+}
+
+document.write("3. " + check_date("October 13, 2014 11:13:00"));
+document.write("<br>" + check_date(new Date(86400000)));
+document.write("<br>" + check_date(new Date(99,5,24,11,33,30,0)));
+document.write("<br>" + check_date([1, 2, 4, 0]));
+</script>
+</p>
+
+
+<p>
+<script>
+// 4. Get month
+function get_month(date){
+	month_list = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    return month_list[date.getMonth()];
+}
+
+document.write("4. " + get_month(new Date("10/11/2009")));
+document.write("<br>" + get_month(new Date("11/13/2014")));
+</script>
+</p>
+
+
+<p>
+<script>
+// 5. Find out maximum number in an array
+function get_maximum(array){
+	if(toString.call(array) !== "[object Array]"){
+    	return false;
+    }
+    return Math.max.apply(null, array);
+}
+var x = [12,34,56,1]
+var y = [-12,-34,0,-56,-1]
+document.write("5. " + (get_maximum(x)))
+document.write("<br>" + (get_maximum(y)))
+</script>
+</body>
+</html> 
+

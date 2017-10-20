@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Assignment Lesson 01 Unit 07</h1>
+<p><h2> Hello World </h2></p>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+<p id="demo11"></p>
+<p id="demo12"></p>
+<script>
+var carName;
+var number;
+var x, y;
+var firstName = "John", lastName = "Doe", age = 35;
+x = 10;
+y = 5;
+z = x + y;
+carName = "Volvo";
+number = 50;
+
+document.getElementById("demo").innerHTML = carName;
+document.getElementById("demo1").innerHTML = number;
+document.getElementById("demo2").innerHTML = z;
+document.getElementById("demo3").innerHTML = x - y;
+document.getElementById("demo4").innerHTML = x * y;
+document.getElementById("demo5").innerHTML = x/y;
+</script>
+<script>
+var x, y;
+x = 15;
+y = 9;
+document.getElementById("demo6").innerHTML = x%y;
+document.getElementById("demo7").innerHTML = x+=5;
+document.getElementById("demo8").innerHTML = x-=5;
+document.getElementById("demo9").innerHTML = x*=5;
+document.getElementById("demo10").innerHTML = x-=5;
+document.getElementById("demo11").innerHTML = x/=5;
+document.getElementById("demo12").innerHTML = x = 10%3;
+</script>
+</body>
+</html>

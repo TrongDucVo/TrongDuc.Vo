@@ -1,0 +1,101 @@
+---------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+<p id="Ex1"></p>
+<script>
+var is_array = function(input) {
+return (Object.prototype.toString.call(input) === "[object Array]")?true: false
+};
+ var ex1 = 'w3resource'
+ document.getElementById("Ex1").innerHTML = is_array(ex1);
+</script>
+</body>
+</html>
+----------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+<p id="Ex2"></p>
+<script>
+var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+var times = 1;
+var virtual = 0;
+var item;
+for (var i = 0; i < arr1.length; i++) {
+  for (var j = i; j < arr1.length; j++) {
+    if (arr1[i] == arr1[j]) virtual++;
+    if (times < virtual) {
+      times = virtual;
+      item = arr1[i];
+    }
+  }
+  virtual = 0;
+}
+document.getElementById("Ex2").innerHTML = item + " ( " + times + " times ) ";
+</script>
+</body>
+</html>
+----------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+<p id="Ex3"></p>
+<script>
+ var is_date = function(input) {
+ return ( Object.prototype.toString.call(input) === "[object Date]" )?true:false
+ };
+ var ex3 = [1, 2, 4, 0];
+ document.getElementById("Ex3").innerHTML = is_date(ex3);
+</script>
+</body>
+</html>
+----------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+<p id="Ex4"></p>
+<script>
+var months = new Array(12);
+months[0] = "January";
+months[1] = "February";
+months[2] = "March";
+months[3] = "April";
+months[4] = "May";
+months[5] = "June";
+months[6] = "July";
+months[7] = "August";
+months[8] = "September";
+months[9] = "October";
+months[10] = "November";
+months[11] = "December";
+
+var current_date = new Date("11/13/2014");
+month_value = current_date.getMonth();
+day_value = current_date.getDate();
+year_value = current_date.getFullYear();
+document.getElementById("Ex4").innerHTML = months[month_value];
+</script>
+</body>
+</html>
+-------------------------------------
+<!DOCTYPE html>
+<html>
+<body>
+<p id="Ex5"></p>
+<script>
+function max(arr) {
+    if (arr.length === 0) {
+        return -1;
+    }
+    var max = arr[0];
+    for (var i = 0; i < arr.length; i++)
+        if (arr[i] > max) max = arr[i];
+    return max;
+}
+var ex5 = [12,34,56,1];
+document.getElementById("Ex5").innerHTML = max(ex5);
+</script>
+</body>
+</html>
+----------------------------------------

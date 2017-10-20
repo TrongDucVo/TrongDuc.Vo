@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Van Huong Nguyen</h2>
+
+<p id="Ex1"></p>
+<p id="Ex2"></p>
+<p id="Ex3"></p>
+<p id="Ex4"></p>
+<p id="Ex5"></p>
+<p id="Ex6_Ex7"><\p>
+<p id="Ex8"><\p>
+<p id="Ex9_Ex10_Ex11"><\p>
+<p id="Ex12"><\p>
+<p id="Ex13"><\p>
+<p id="Ex14"><\p>
+<p id="Ex15"><\p>
+<p id="Ex16"><\p>
+<p id="Ex17"><\p>
+
+
+
+<script>
+document.getElementById("Ex1").innerHTML = "HelloWorld";
+</script>
+
+<script>
+//document.getElementById("Ex2").innerHTML = "HelloWorld";
+
+/*
+document.getElementById("Ex2").innerHTML = "HelloWorld";
+*/
+</script>
+
+<script>
+var carName = "Volvo"
+document.getElementById("Ex3").innerHTML = carName;
+</script>
+
+<script>
+var number = 50 
+document.getElementById("Ex4").innerHTML = number;
+</script>
+
+<script>
+//fix: document.getElementById("demo").innerHTML = carName;
+</script>
+
+<script>
+var x=5,y=10,z;
+z=x+y;
+document.getElementById("Ex6_Ex7").innerHTML = z;
+</script>
+
+<script>
+var firstName = "John",
+lastName = "Doe",
+age = 35;
+document.getElementById("Ex8").innerHTML = firstName+" "+lastName+ ": "+ age;
+</script>
+
+<script>
+var x=10,y=5;
+var z = [x-y,x*y,x/y]
+document.getElementById("Ex9_Ex10_Ex11").innerHTML = z;
+</script>
+
+<script>
+var x=10,y=5;
+var z = [x-y,x*y,x/y];
+document.getElementById("Ex9_Ex10_Ex11").innerHTML = z;
+</script>
+
+<script>
+var x=9,y=5;
+document.getElementById("Ex12").innerHTML = x%y;
+</script>
+
+<script>
+var x = 9,y=9,z=9,t=9;
+x += 5;
+document.getElementById("Ex13").innerHTML = x;
+y -= 5;
+document.getElementById("Ex14").innerHTML = y;
+z *= 5;
+document.getElementById("Ex15").innerHTML = z;
+t /= 5;
+document.getElementById("Ex16").innerHTML = t;
+</script>
+
+<script>
+var x=10%3;
+document.getElementById("Ex17").innerHTML = x;
+</script>
+
+
+
+
+</body>
+</html> 

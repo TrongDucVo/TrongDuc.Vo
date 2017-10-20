@@ -1,0 +1,2 @@
+Show simple animation
+all direct child animation run in parallel when start

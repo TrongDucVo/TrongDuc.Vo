@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>bg_main.png</file>
+        <file>unit01.qml</file>
+        <file>unit02.qml</file>
+        <file>unit03.qml</file>
+        <file>unit04.qml</file>
+        <file>unit05.qml</file>
+        <file>SideBar.qml</file>
+        <file>rocket-1.png</file>
+        <file>rocket-2.png</file>
+        <file>rocket-3.png</file>
+        <file>Space.png</file>
+        <file>ColorPoint.qml</file>
+        <file>space2.png</file>
+        <file>DigitalClock.qml</file>
+        <file>Student.qml</file>
+    </qresource>
+</RCC>

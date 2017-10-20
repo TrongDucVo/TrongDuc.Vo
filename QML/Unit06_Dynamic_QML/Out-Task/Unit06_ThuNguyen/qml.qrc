@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>connection.qml</file>
+        <file>Delegate.qml</file>
+        <file>model_view_delegate.qml</file>
+        <file>Student.qml</file>
+        <file>StudentInput.qml</file>
+        <file>StudentList.qml</file>
+        <file>Test2.qml</file>
+        <file>timer.qml</file>
+        <file>Type1.qml</file>
+        <file>Type2.qml</file>
+        <file>image/613.jpg</file>
+        <file>image/background2.jpg</file>
+        <file>image/france.jpg</file>
+        <file>image/sad.png</file>
+        <file>image/smile.png</file>
+        <file>image/usa.jpg</file>
+        <file>image/vietnam.jpg</file>
+        <file>image/vietnam2.jpg</file>
+        <file>image/vietnam3.jpg</file>
+        <file>image/wink.png</file>
+    </qresource>
+</RCC>

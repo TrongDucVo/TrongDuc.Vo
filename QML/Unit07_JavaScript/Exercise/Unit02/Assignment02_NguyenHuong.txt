@@ -1,0 +1,154 @@
+------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<p id="Ex1"></p>
+<script>
+function reverse_a_number(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
+document.getElementById("Ex1").innerHTML = reverse_a_number(32243);
+
+</script>
+</body>
+</html>
+----------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<p id="Ex2"></p>
+<script>
+function check(str_input) {
+   		var str_new = str_input.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+		var count = 0;
+	if(str_new==="") {
+		alert("Nothing found!");
+		return false;
+	}
+    else if (str_new.length === 1) {
+			alert("Entry is a palindrome.");
+			return true;
+	}
+	else {
+    		count = ((str_new.length) % 2 === 0)? 
+        	(str_new.length) / 2 : (str_new.length - 1) / 2;
+    }
+ 
+	for (var i = 0; i < count; i++) {
+		if (str_new[i] != str_new[str_new.length - i-1]) {
+			alert("Entry is not a palindrome.");
+			return false;
+		}
+	}
+	alert("The entry is a palindrome.");
+	return true;
+}
+document.getElementById("Ex2").innerHTML = check("madam");
+</script>
+</body>
+</html>
+----------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<p id="Ex3"></p>
+<script>
+	function substrings(str) {
+		var newStr = str.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+		var arr = [], count = 0;
+    	for (var i = 0; i <= newStr.length; i++) {
+        	for (var j = 0; j < i; j++){
+                	arr[count] = newStr.substring(j,i);
+                    count++;
+             }
+         }
+	return arr;
+    }
+document.getElementById("Ex3").innerHTML = substrings("dog");
+</script>
+</body>
+</html>
+-----------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<p id="Ex4"></p>
+<p id="Ex5"></p>
+
+<script>
+	function keys(obj) {
+
+     		if (!isObject(obj)) return [];
+
+     		if (Object.keys) return Object.keys(obj);
+
+     		var keys = [];
+		
+     		for (var key in obj) if (_.has(obj, key)) keys.push(key);
+
+     		return keys;
+
+   	}
+
+ 	function isObject(obj) {
+
+     		var type = typeof obj;
+
+     	return type === 'function' || type === 'object' && !!obj;
+
+   	}
+
+ 	var student = { 
+
+ 		name : "David Rayy", 
+
+ 		sclass : "VI", 
+
+ 		rollno : 12 };
+
+ 	Object.objsize = function(Myobj) {
+
+     		var osize = 0, key;
+
+     		for (key in Myobj) {
+
+         		if (Myobj.hasOwnProperty(key)) osize++;
+
+     		}
+
+     		return osize;
+
+ 	};
+
+ 	var objsize = Object.objsize(student);
+
+ 	var student = { 
+	
+ 		name : "David Rayy", 
+
+ 		sclass : "VI", 
+
+ 		rollno : 12 };
+document.getElementById("Ex4").innerHTML = (keys({name: "David Rayy", sclass: "VI", rollno: "12"}));
+document.getElementById("Ex5").innerHTML = objsize;
+
+</script>
+</body>
+</html>
+-----------------------------------------------------
+
+

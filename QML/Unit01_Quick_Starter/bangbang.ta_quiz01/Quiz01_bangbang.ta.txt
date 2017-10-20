@@ -1,0 +1,13 @@
+
+1.
+A/Column Arranges child items into a column by stacking them on top of each other
+
+2. 
+A/ In Grid, If rows or columns set, the other is calculated from the number of child items
+
+3. 
+
+B/ The last child element with focus:true receives the focus if the FocusScope receives the focus
+
+4.
+A/ Direction of the flow is controlled using flow and layoutDirection

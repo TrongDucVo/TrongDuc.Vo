@@ -1,0 +1,12 @@
+Select the best answer
+
+1.B/ Animation Defines by An easing curve for the interpolation curve
+
+2.C/ Vector3dAnimation Animates changes in QVector3d values
+
+3.C/ PathAnimation Animates an item along a path
+
+4.B/ PauseAnimation Provides a pause for an animation
+
+mark: ___
+

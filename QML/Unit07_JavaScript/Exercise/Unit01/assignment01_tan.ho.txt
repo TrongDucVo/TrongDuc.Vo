@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Learning JavaScript</h2>
+<p id = "line1"></p>
+<p id = "line2"></p>
+<p id = "line3"></p>
+<p id = "line4"></p>
+<p id = "line5"></p>
+<p id = "line6"></p>
+<p id = "line7"></p>
+<p id = "line8"></p>
+<p id = "line9"></p>
+<p id = "line10"></p>
+<p id = "line11"></p>
+<p id = "line12"></p>
+<p id = "line13"></p>
+
+
+<script>
+	
+    window.alert("Assignment 01");
+
+	document.getElementById("line1").innerHTML = "Hello World!";
+    
+    //document.getElementById("line1").innerHTML = "Hello World!"; comment 1
+    /*document.getElementById("line1").innerHTML = "Hello World!";
+    	comment 2
+    */
+    
+    var carName = "Volvo";
+    document.getElementById("line2").innerHTML = "carName: " + carName;
+    
+    var number = 50;
+    document.getElementById("line3").innerHTML = "number: " + number;
+    
+    var x=5; 
+    var y=10;
+    document.getElementById("line4").innerHTML = "x+y = "+ (x+y);
+    
+    var z=x+y;
+    document.getElementById("line5").innerHTML = "z=x+y=" + z;
+    
+    var firstName = "John"; lastName = "Doe"; age = 35;
+    
+    document.getElementById("line6").innerHTML = "10-5 = "+ (y-x);
+    
+    document.getElementById("line7").innerHTML = "10*5 = " +(x*y);
+    
+    document.getElementById("line8").innerHTML = "10/5 = " +(y/x);
+    
+    x=15; y=9
+    document.getElementById("line9").innerHTML = "x=15, y=9 -> x%y = " +(x%y);
+    
+    x+=5;
+    document.getElementById("line10").innerHTML = "x+=5 -> x= " + x;
+    
+    x-=5;
+    document.getElementById("line11").innerHTML = "x-=5 -> x= " + x;
+    
+    x*=5;
+    document.getElementById("line12").innerHTML = "x*=5 -> x= " + x;
+    
+    x=10; 
+    x%=3;
+    document.write("10%3=" + x);
+    
+</script>
+
+</body>
+</html> 

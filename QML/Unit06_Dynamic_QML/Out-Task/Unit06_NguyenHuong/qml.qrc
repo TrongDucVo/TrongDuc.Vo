@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>Connection.qml</file>
+        <file>Timer.qml</file>
+        <file>QuickStarter.qml</file>
+        <file>FluidElement.qml</file>
+    </qresource>
+</RCC>

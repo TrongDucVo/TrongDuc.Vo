@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="q3"></p>
+<p id="q4"></p>
+<p id="demo">Display the result here.</p> 
+<p>In this sum  a, b, and c are variables:</p>
+<p id="q6"></p>
+<p>  assign a + b:</p>
+<p id="q7"></p>
+<p>  Cau 8:</p>
+<p id="q8"></p>
+<p>  Cau 9:</p>
+<p id="q9"></p>
+<p>  Cau 10:</p>
+<p id="q10"></p>
+<p>  Cau 11:</p>
+<p id="q11"></p>
+<p>  Cau 12:</p>
+<p id="q12"></p>
+<p>  Cau 13:</p>
+<p id="q13"></p>
+<p>  Cau 14:</p>
+<p id="q14"></p>
+<p>  Cau 15:</p>
+<p id="q15"></p>
+<p>  Cau 16:</p>
+<p id="q16"></p>
+<p>  Cau 17:</p>
+<p id="q17"></p>
+<script>
+//window.alert(“HelloWorld”)
+/*window.alert(“HelloWorld”) */
+
+var x = "Volvo";
+var y = 100 ;
+var a = 5,b = 10;
+var c = a + b;
+var firstName = "John";
+var lastName = "Doe";
+var age = 35;
+document.getElementById("q3").innerHTML = x;
+document.getElementById("q4").innerHTML = y;
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+document.getElementById("q6").innerHTML = a + b;
+document.getElementById("q7").innerHTML = c;
+document.getElementById("q8").innerHTML = firstName + lastName + age;
+document.getElementById("q9").innerHTML = b - a;
+document.getElementById("q10").innerHTML = a * b;
+document.getElementById("q11").innerHTML = b / a;
+
+
+
+</script>
+<script>
+
+var x = 15 ;
+var y = 9;
+var z =5 ;
+document.getElementById("q12").innerHTML = x % y;
+document.getElementById("q13").innerHTML = x+=5 ;
+document.getElementById("q14").innerHTML = x-=5 ;
+document.getElementById("q15").innerHTML = x*=5 ;
+document.getElementById("q16").innerHTML = x/=5 ;
+document.getElementById("q17").innerHTML = x%=3 ;
+</script>
+</body>
+</html>
+
+

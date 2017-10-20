@@ -1,0 +1,10 @@
+Select the best answer
+
+1. A/Column Arranges child items into a column by stacking them on top of each other
+
+2. C/ Grid columns property: number of columns can be constrained
+
+3. B/ The last child element with focus:true receives the focus if the FocusScope receives the focus
+
+4. A/ Direction of the flow is controlled using flow and layoutDirection
+

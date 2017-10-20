@@ -1,0 +1,10 @@
+1 c) /* var x = 10; */ var y = 0; 
+2 b) myfunction; 
+3 d) if (A != B)
+4 a) Time
+5 d) break
+6 c) one for each argument
+7 a) the code following the case 12:
+8 c) Adds 1 to a number
+9 a) A method is the object oriented version of a function
+10 b) a number

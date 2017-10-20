@@ -1,0 +1,6 @@
+Dynamic load application
+
+Create a application to store and show the previous assignments. The requirement as the following describing picture.
+
+https://ionicframework.com/docs/ionicons/
+http://fontawesome.io/icons/

@@ -1,0 +1,27 @@
+Select the best answer
+
+
+1. A/Column Arranges child items into a column by stacking them on top of each other(v)
+B/ Column Places its child items next to each other
+
+
+2. A/ In Grid, If rows or columns set, the other is calculated from the number of child items(v)
+
+B/ Grid rows property: number of rows can not be constrained
+
+C/ Grid columns property: number of columns can be constrained 
+
+
+<<<<<<< HEAD:Lessons/QML/Unit01_Quick_Starter/Unit01_Quiz.txt
+B/ The last child element with focus:true receives the focus if the FocusScope receives the focus(v)
+4. A/ Direction of the flow is controlled using flow and layoutDirection(v)
+=======
+3. A/ The last child element with focus:false receives the focus if the FocusScope receives the focus
+
+B/ The last child element with focus:true receives the focus if the FocusScope receives the focus(v)
+
+4. A/ Direction of the flow is controlled using flow and layoutDirection(v)
+>>>>>>> 5901b2a6ba638bd92ddfc88d0bf40f497521692b:Lessons/QML/Unit01_Quick_Starter/Quiz/Unit01_Quiz_hien.vu.txt
+
+B/ Flow dont need both width and height
+

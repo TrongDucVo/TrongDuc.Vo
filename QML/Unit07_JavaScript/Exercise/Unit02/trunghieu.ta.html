@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>trunghieu.ta</h2>
+
+
+<p>
+<script>
+// 1. Reverse a number
+function reverse(n)
+{
+	n = n + "";
+	return n.split("").reverse().join("");
+}
+
+var x = 32243;
+document.write("1. reverse x is " + reverse(x));
+</script>
+</p>
+
+
+<p>
+<script>
+// 2. Check palindrome
+function checkPalindrome(strInput){
+	var str = strInput.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+    
+    if(str === "") {
+		document.write(strInput + "is empty<br>");
+	}
+    else {
+    	strReverse = reverse(str);
+    	if (str === strReverse) {
+    		document.write(strInput + " is palindrome<br>");
+    	}
+    	else {
+    		document.write(strInput + " is not a palindrome<br>");
+        }
+    }
+	
+}
+document.write("2.<br>");
+checkPalindrome('madam');
+checkPalindrome('nurses run');
+checkPalindrome('fox');
+</script>
+</p>
+
+<p>
+<script>
+// 3. Generate all combinations of a string
+function combineString(str)
+{
+	var array = [];
+    
+    if(str === "") {
+		document.write(str + " is empty<br>");
+	}
+    
+	for (var x = 0; x < str.length; x++) 
+	{
+		array[x]=str.substr(x, 1);
+    }
+    
+	var combine = [];
+	var temp = "";
+
+	for (var i = 0; i < array.length; i++)
+	{
+		temp = "";
+		for (var j = i; j < array.length; j++) {
+            temp += array[j];
+            combine.push(temp);
+    	}
+	}
+    document.write("3. <br> " + combine.join(", "));
+}
+
+combineString("dog");
+</script>
+</p>
+
+<p>
+<script>
+// 4. List the properties of object
+function getObject(obj ) {
+	document.write("4. <br> Output: " + Object.getOwnPropertyNames(obj).join(", "));
+}
+  
+var student = {
+	name : "David Rayy",
+	sclass : "VI",
+	rollno : 12 
+    };
+
+getObject(student);
+</script>
+</p>
+
+<p>
+<script>
+// 5. Get the length of object
+function getObjLength(obj) {
+    document.write("5. <br> Output: " + Object.keys(obj).length);
+}
+
+getObjLength(student);
+</script>
+</p>
+
+</body>
+</html> 

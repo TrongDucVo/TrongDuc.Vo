@@ -1,0 +1,9 @@
+Answer:
+
+1. B/ JavaScript code to be executed when the signal handler is invoked
+
+2. A/ A signal is automatically emitted when the value of a QML property changes
+
+3. B/ Signals can be added to custom QML Types through signal keyword
+
+4. B/ This mechanism enables a signal to be received by a method instead of a signal handler

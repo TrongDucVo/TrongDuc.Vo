@@ -1,0 +1,26 @@
+Select the best answer
+
+
+1. A/ Animation Defines by main.exec();
+
+B/ Animation Defines by An easing curve for the interpolation curve
+
+
+2. A/ PauseAnimation Animates changes in parent values
+
+B/ SequentialAnimation Allows animations to be run in parallel
+
+C/ Vector3dAnimation Animates changes in QVector3d values
+
+
+3. A/ PathAnimation Allows a property to track a value in a spring-like motion
+
+B/ SmoothedAnimation Animates changes in parent values
+
+C/ PathAnimation Animates an item along a path
+
+
+4. A/ ParentAnimation Allows animations to be run in parallel
+
+B/ PauseAnimation Provides a pause for an animation
+
