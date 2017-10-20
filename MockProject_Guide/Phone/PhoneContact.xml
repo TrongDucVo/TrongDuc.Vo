@@ -1,0 +1,2578 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <DisplayID>2</DisplayID>
+        <Size>
+            <SizeW>800</SizeW>
+            <SizeH>480</SizeH>
+        </Size>
+        <View>
+            <ViewID>view_bg_main</ViewID>
+            <ZOrder>0</ZOrder>
+            <Screen>
+                <ScreenID>ics_phone_contact_list</ScreenID>
+                <UUID />
+                <ImageWidget>
+                    <ID>img_bg_main</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>480</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bg_main.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_actionbar_bg</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>70</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/actionbar_bg.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <NormalURL />
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_function_separator_phone</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>68</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/function_separator_phone.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <NormalURL />
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <TabView>
+                    <ID>top_menu_5</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>70</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <TotalTabCount>5</TotalTabCount>
+                    <TabSpacing />
+                    <NormalURL />
+                    <HighlightURL>ThemeB/phone_tab_active.png</HighlightURL>
+                    <TabSeperatorImageURL>ThemeB/statusbar_timetemp_separator.png</TabSeperatorImageURL>
+                    <TabItemLayout>
+                        <TabID>tab_1</TabID>
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>160</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <ButtonWidget>
+                            <ID>btn_phone_tab</ID>
+                            <ImageWidget>
+                                <ID>img_phone_tab</ID>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>0</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>70</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <NormalURL />
+                                <FocusURL>ThemeB/phone_tab_active.png</FocusURL>
+                                <Alpha>100</Alpha>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <ZOrder>20</ZOrder>
+                            </ImageWidget>
+                            <LabelWidget>
+                                <ID>phone_favorites</ID>
+                                <Value>
+                                    <Encoding />
+                                    <Text />
+                                    <!-- Refer to sourceType string in strings.xml -->
+                                </Value>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>20</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>32</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <Font>
+                                    <Name>GMSansUI-Regular</Name>
+                                    <Size>23</Size>
+                                    <Decoration>0</Decoration>
+                                    <TextAlign>2</TextAlign>
+                                    <Color>255, 255, 255</Color>
+                                    <TextDirection>0</TextDirection>
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                                <TextWrap>1</TextWrap>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <Alpha>100</Alpha>
+                                <ZOrder>20</ZOrder>
+                            </LabelWidget>
+                        </ButtonWidget>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                    </TabItemLayout>
+                    <TabItemLayout>
+                        <TabID>tab_2</TabID>
+                        <Location>
+                            <LocationX>161</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>160</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <ButtonWidget>
+                            <ID>btn_phone_tab</ID>
+                            <ImageWidget>
+                                <ID>img_phone_tab</ID>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>0</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>70</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <NormalURL />
+                                <FocusURL>ThemeB/phone_tab_active.png</FocusURL>
+                                <Alpha>100</Alpha>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <ZOrder>20</ZOrder>
+                            </ImageWidget>
+                            <LabelWidget>
+                                <ID>phone_keypad</ID>
+                                <Value>
+                                    <Encoding />
+                                    <Text />
+                                    <!-- Refer to sourceType string in strings.xml -->
+                                </Value>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>20</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>32</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <Font>
+                                    <Name>GMSansUI-Regular</Name>
+                                    <Size>23</Size>
+                                    <Decoration>0</Decoration>
+                                    <TextAlign>2</TextAlign>
+                                    <Color>255, 255, 255</Color>
+                                    <TextDirection>0</TextDirection>
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                                <TextWrap>1</TextWrap>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <Alpha>100</Alpha>
+                                <ZOrder>20</ZOrder>
+                            </LabelWidget>
+                        </ButtonWidget>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                    </TabItemLayout>
+                    <TabItemLayout>
+                        <TabID>tab_3</TabID>
+                        <Location>
+                            <LocationX>321</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>160</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <ButtonWidget>
+                            <ID>btn_phone_tab</ID>
+                            <ImageWidget>
+                                <ID>img_phone_tab</ID>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>0</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>70</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <NormalURL />
+                                <FocusURL>ThemeB/phone_tab_active.png</FocusURL>
+                                <Alpha>100</Alpha>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <ZOrder>20</ZOrder>
+                            </ImageWidget>
+                            <LabelWidget>
+                                <ID>ui_recents</ID>
+                                <Value>
+                                    <Encoding />
+                                    <Text />
+                                    <!-- Refer to sourceType string in strings.xml -->
+                                </Value>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>20</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>32</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <Font>
+                                    <Name>GMSansUI-Regular</Name>
+                                    <Size>23</Size>
+                                    <Decoration>0</Decoration>
+                                    <TextAlign>2</TextAlign>
+                                    <Color>255, 255, 255</Color>
+                                    <TextDirection>0</TextDirection>
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                                <TextWrap>1</TextWrap>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <Alpha>100</Alpha>
+                                <ZOrder>20</ZOrder>
+                            </LabelWidget>
+                        </ButtonWidget>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                    </TabItemLayout>
+                    <TabItemLayout>
+                        <TabID>tab_4</TabID>
+                        <Location>
+                            <LocationX>481</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>160</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <ButtonWidget>
+                            <ID>btn_phone_tab</ID>
+                            <ImageWidget>
+                                <ID>img_phone_tab</ID>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>0</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>70</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <NormalURL />
+                                <FocusURL>ThemeB/phone_tab_active.png</FocusURL>
+                                <Alpha>100</Alpha>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <ZOrder>20</ZOrder>
+                            </ImageWidget>
+                            <LabelWidget>
+                                <ID>ui_contacts</ID>
+                                <Value>
+                                    <Encoding />
+                                    <Text />
+                                    <!-- Refer to sourceType string in strings.xml -->
+                                </Value>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>20</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>32</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <Font>
+                                    <Name>GMSansUI-Regular</Name>
+                                    <Size>23</Size>
+                                    <Decoration>0</Decoration>
+                                    <TextAlign>2</TextAlign>
+                                    <Color>255, 255, 255</Color>
+                                    <TextDirection>0</TextDirection>
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                                <TextWrap>1</TextWrap>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <Alpha>100</Alpha>
+                                <ZOrder>20</ZOrder>
+                            </LabelWidget>
+                        </ButtonWidget>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                    </TabItemLayout>
+                    <TabItemLayout>
+                        <TabID>tab_4</TabID>
+                        <Location>
+                            <LocationX>640</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>160</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <ButtonWidget>
+                            <ID>btn_phone_tab</ID>
+                            <ImageWidget>
+                                <ID>img_phone_tab</ID>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>0</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>70</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <NormalURL />
+                                <FocusURL>ThemeB/phone_tab_active.png</FocusURL>
+                                <Alpha>100</Alpha>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <ZOrder>20</ZOrder>
+                            </ImageWidget>
+                            <LabelWidget>
+                                <ID>ui_devices_short</ID>
+                                <Value>
+                                    <Encoding />
+                                    <Text />
+                                    <!-- Refer to sourceType string in strings.xml -->
+                                </Value>
+                                <Location>
+                                    <LocationX>0</LocationX>
+                                    <LocationY>20</LocationY>
+                                </Location>
+                                <Size>
+                                    <SizeW>160</SizeW>
+                                    <SizeH>32</SizeH>
+                                </Size>
+                                <TabOrder>
+                                    <TabV />
+                                    <TabH />
+                                </TabOrder>
+                                <Font>
+                                    <Name>GMSansUI-Regular</Name>
+                                    <Size>23</Size>
+                                    <Decoration>0</Decoration>
+                                    <TextAlign>2</TextAlign>
+                                    <Color>255, 255, 255</Color>
+                                    <TextDirection>0</TextDirection>
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                                <TextWrap>1</TextWrap>
+                                <InputWidgetMapping>
+                                    <UserInput />
+                                    <WidgetCallback />
+                                </InputWidgetMapping>
+                                <OnFocusCallback />
+                                <Alpha>100</Alpha>
+                                <ZOrder>20</ZOrder>
+                            </LabelWidget>
+                        </ButtonWidget>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                    </TabItemLayout>
+                    <ZOrder>1</ZOrder>
+                </TabView>
+                <ImageWidget>
+                    <ID>img_statusbar_bg</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>70</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/statusbar_bg.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_statusbar_separator</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>410</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/statusbar_separator.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_home_button_selector</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>70</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/home_inactive.png</NormalURL>
+                    <FocusURL>ThemeB/home_active.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_statusbar_timetemp_separator</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>70</LocationX>
+                        <LocationY>430</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2</SizeW>
+                        <SizeH>31</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>4</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_sb_audio_icon</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>71</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>70</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/audio_normal.png</NormalURL>
+                    <FocusURL>ThemeB/audio_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>5</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/audio_highlight.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/audio_mute.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/audio_normal.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/audio_pressed.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_phone_selector</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>141</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>70</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/phone_active.png</NormalURL>
+                    <FocusURL>ThemeB/phone_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>7</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/phone_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/phone_inactive.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/phone_pressed.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/phone_ic_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>ThemeB/phone_ic_inactive.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>ThemeB/phone_mute.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL>ThemeB/phone_on_hold_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>7</DataValue>
+                        <NormalURL>ThemeB/phone_on_hold_inactive.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>8</DataValue>
+                        <NormalURL>ThemeB/phone_wireless_charging_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>9</DataValue>
+                        <NormalURL>ThemeB/phone_wireless_charging_foreign_obj.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                   <SelectorState><DataValue>10</DataValue><NormalURL>ThemeB/phone_wireless_charging_overtemp.png</NormalURL><FocusURL /></SelectorState><SelectorState><DataValue>11</DataValue><NormalURL>ThemeB/phone_wireless_overtemp_inactive.png</NormalURL><FocusURL /></SelectorState><SelectorState><DataValue>12</DataValue><NormalURL>ThemeB/phone_wireless_overtempactive.png</NormalURL><FocusURL /></SelectorState><SelectorState><DataValue>13</DataValue><NormalURL>ThemeB/phone_wireless_pressed.png</NormalURL><FocusURL /></SelectorState><SelectorState><DataValue>14</DataValue><NormalURL>ThemeB/phone_wireless_unknown.png</NormalURL><FocusURL /></SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_onstartbt_selector</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>211</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>70</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/onstar_inactive.png</NormalURL>
+                    <FocusURL>ThemeB/onstar_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>6</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/onstar_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/onstar_inactive.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/onstar_pressed.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_weather_icon</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>281</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>70</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/climate_inactive.png</NormalURL>
+                    <FocusURL>ThemeB/climate_pressed.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>8</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/climate_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/climate_inactive.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/climate_pressed.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_alert_popup_bg</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>351</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>287</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/alert_popup_bg.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>9</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>dyn_ui_3_big</ID>
+                    <UUID />
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>21</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255,255,255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>425</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>11</SizeW>
+                        <SizeH>29</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>10</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_bluetooth_icon</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>461</LocationX>
+                        <LocationY>433</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>11</SizeW>
+                        <SizeH>19</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bluetooth_icon.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>11</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>wifi_signal_strength</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>562</LocationX>
+                        <LocationY>447</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>58</SizeW>
+                        <SizeH>10</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/wifi_signal_strength_3.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>11</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/wifi_signal_strength_0.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/wifi_signal_strength_1.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/wifi_signal_strength_2.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/wifi_signal_strength_3.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>ThemeB/wifi_signal_strength_4.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>ThemeB/wifi_signal_strength_5.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_tty_icon</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>520</LocationX>
+                        <LocationY>438</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>36</SizeW>
+                        <SizeH>13</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/tty_icon.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>9</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>bt_phone_batt</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>499</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>14</SizeW>
+                        <SizeH>26</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bt_batt_charge3.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>8</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge3.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge1.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge2.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge4.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge5.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge6.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_wifi11</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>520</LocationX>
+                        <LocationY>437</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>35</SizeW>
+                        <SizeH>15</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/wifi11.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>11</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/wifi11.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/wifi_logo_active_hotspot.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>bt_signal_strength</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>466</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>27</SizeW>
+                        <SizeH>26</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bt_signal_strength3.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>12</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength3.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength0.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength1.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength2.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength4.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength5.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_roaming</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>619</LocationX>
+                        <LocationY>430</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>10</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/roaming.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>13</ZOrder>
+                </ImageWidget>
+                <!-- <ImageWidget>
+					<ID>img_data_transfer_signal</ID><UUID></UUID>
+					<Location>
+						<LocationX>524</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size>
+						<SizeW>33</SizeW>
+						<SizeH>8</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/data_transfer_signal.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>14</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+				</ImageWidget> -->
+                <ImageWidget>
+                    <ID>onstar_cell_network_speed</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>565</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>51</SizeW>
+                        <SizeH>12</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/fourg_lte.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>15</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/fourg_lte.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/four_g.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/three_g.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/two_g.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>location_selector</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>601</LocationX>
+                        <LocationY>425</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>40</SizeW>
+                        <SizeH>39</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/location_enabled.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>16</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/location_enabled.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/location_nogps.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/location_disabled.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>dyn_sb_temperature</ID>
+                    <UUID />
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>31</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>1</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>632</LocationX>
+                        <LocationY>426</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>65</SizeW>
+                        <SizeH>42</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>17</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_statusbar_timetemp_separator</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>700</LocationX>
+                        <LocationY>430</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2</SizeW>
+                        <SizeH>31</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>18</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <ID>dyn_sb_time</ID>
+                    <UUID />
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>31</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>0</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <Location>
+                        <LocationX>705</LocationX>
+                        <LocationY>426</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>92</SizeW>
+                        <SizeH>42</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>19</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <ID>img_command_control_icon</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>414</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>32</SizeW>
+                        <SizeH>33</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/command_control_icon.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_energy_selector</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>281</LocationX>
+                        <LocationY>412</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>70</SizeW>
+                        <SizeH>68</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/energy_inactive.png</NormalURL>
+                    <FocusURL>ThemeB/energy_pressed.png</FocusURL>
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>0</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/energy_inactive.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/energy_pressed.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/energy_active.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_data_transfer_signal</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>413</LocationX>
+                        <LocationY>424</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>34</SizeW>
+                        <SizeH>8</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/data_transfer_signal.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>1</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_five_bar</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>413</LocationX>
+                        <LocationY>437</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>35</SizeW>
+                        <SizeH>29</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/five_bar.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>18</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/five_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/no_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/one_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/two_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>ThemeB/three_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>ThemeB/four_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>6</DataValue>
+                        <NormalURL>ThemeB/five_bar.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_update_down</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>419</LocationX>
+                        <LocationY>431</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>22</SizeW>
+                        <SizeH>32</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/update_down.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>0</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>16</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>img_list_line_divider</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>96</LocationX>
+                        <LocationY>138</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>704</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/list_line_divider.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>2</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <NormalURL />
+                        <FocusURL />
+                    </SelectorState>
+                    <BehaviorState>
+                        <BehaviorStateValue />
+                        <BehaviorProperty />
+                        <BehaviorPropertyValue />
+                        <ChangeAnimation />
+                    </BehaviorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>bt_bluetooth</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>734</LocationX>
+                        <LocationY>75</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>11</SizeW>
+                        <SizeH>19</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bluetooth_phone.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>5</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <NormalURL />
+                        <FocusURL />
+                    </SelectorState>
+                    <BehaviorState>
+                        <BehaviorStateValue />
+                        <BehaviorProperty />
+                        <BehaviorPropertyValue />
+                        <ChangeAnimation />
+                    </BehaviorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>bt_signal_strength</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>739</LocationX>
+                        <LocationY>73</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>27</SizeW>
+                        <SizeH>26</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bt_signal_strength1.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength1.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>1</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength0.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>2</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength2.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>3</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength3.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>4</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength4.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>5</DataValue>
+                        <NormalURL>ThemeB/bt_signal_strength5.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <BehaviorState>
+                        <BehaviorStateValue />
+                        <BehaviorProperty />
+                        <BehaviorPropertyValue />
+                        <ChangeAnimation />
+                    </BehaviorState>
+                </ImageWidget>
+                <ImageWidget>
+                    <ID>bt_phone_batt</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>772</LocationX>
+                        <LocationY>73</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>14</SizeW>
+                        <SizeH>26</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bt_batt_charge1.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>5</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge1.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge1.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge3.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge4.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge5.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL>ThemeB/bt_batt_charge6.png</NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    <BehaviorState>
+                        <BehaviorStateValue />
+                        <BehaviorProperty />
+                        <BehaviorPropertyValue />
+                        <ChangeAnimation />
+                    </BehaviorState>
+                </ImageWidget>
+				  <LabelWidget>
+                    <ID>phone_no_matches_empty</ID>
+                    <UUID />
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>409</LocationX>
+                        <LocationY>72</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>178</SizeW>
+                        <SizeH>32</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>23</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>1</TextAlign>
+                        <Color>235,175,41</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                               <LabelWidget>
+                    <ID>dyn_phone_CellDeviceNameStatus_DeviceName</ID>
+                    <UUID />
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>591</LocationX>
+                        <LocationY>72</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>141</SizeW>
+                        <SizeH>32</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>23</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>1</TextAlign>
+                        <Color>235,175,41</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>3</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+				   <ImageWidget>
+                    <ID>img_tbt_onstar_icon</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>739</LocationX>
+                        <LocationY>73</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>29</SizeW>
+                        <SizeH>29</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/tbt_onstar_icon.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>6</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <NormalURL></NormalURL>
+                        <FocusURL />
+                    </SelectorState>
+                    
+                    <BehaviorState>
+                        <BehaviorStateValue />
+                        <BehaviorProperty />
+                        <BehaviorPropertyValue />
+                        <ChangeAnimation />
+                    </BehaviorState>
+                </ImageWidget>
+   
+      
+                <!-- ListWidget -->
+                <ListWidget>
+                    <ListID>phone_btcontact_details</ListID>
+                    <Location>
+                        <LocationX>96</LocationX>
+                        <LocationY>139</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>704</SizeW>
+                        <SizeH>268</SizeH>
+                    </Size>
+                    <FocusedRow>2</FocusedRow>
+                    <BackgroundURL />
+                    <RowLayout>
+                        <Size>
+                            <SizeW>704</SizeW>
+                            <SizeH>68</SizeH>
+                        </Size>
+                        <RowSpacing>1</RowSpacing>
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>0</LocationY>
+                        </Location>
+                        <NormalURL />
+                        <FocusURL>ThemeB/list_yellow_highlight_68.png</FocusURL>
+                        <RowSeparatorImageURL>ThemeB/list_line_divider.png</RowSeparatorImageURL>
+                    </RowLayout>
+                    <ZOrder>6</ZOrder>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <TotalRowCount>4</TotalRowCount>
+                    <AlphaData>
+                        <ImageURL />
+                        <BackgroundPosition>
+                            <LocationX />
+                            <LocationY />
+                        </BackgroundPosition>
+                        <Size>
+                            <SizeW />
+                            <SizeH />
+                        </Size>
+                        <ZOrder />
+                        <LetterIndexArray>
+                            <Character>
+                                <Encoding />
+                                <Text />
+                            </Character>
+                            <DisplayNumber />
+                            <UniqueID />
+                        </LetterIndexArray>
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <CharacterPosition>
+                            <LocationX />
+                            <LocationY />
+                        </CharacterPosition>
+                    </AlphaData>
+                    <ElementData>
+                        <RowIndex>1</RowIndex>
+                        <UniqueID>dyn_framework_phone_contact_name1</UniqueID>
+                        <OnFocusCallback />
+                        <LabelElements>
+                            <ColumnID>1</ColumnID>
+                            <ID>dyn_framework_phone_contact_name1</ID>
+                            <Value>
+                                <Encoding />
+                                <Text />
+                            </Value>
+                            <Location>
+                                <LocationX>9</LocationX>
+                                <LocationY>16</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>578</SizeW>
+                                <SizeH>38</SizeH>
+                            </Size>
+                            <Font>
+                                <Name>GMSansUI-Regular</Name>
+                                <Size>28</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>0</TextAlign>
+                                <Color>255,255,255</Color>
+                                <TextDirection>1</TextDirection>
+                            </Font>
+                            <FocusFont>
+                                <Name />
+                                <Size />
+                                <Decoration />
+                                <TextAlign />
+                                <Color />
+                                <TextDirection />
+                            </FocusFont>
+                            <TextWrap />
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <OnFocusCallback />
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <SelectorState>
+                                <DataValue />
+                                <StaticValue />
+                                <Font>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                            </SelectorState>
+                        </LabelElements>
+                    </ElementData>
+                    <ElementData>
+                        <RowIndex>2</RowIndex>
+                        <UniqueID>dyn_framework_phone_contact_name4</UniqueID>
+                        <OnFocusCallback />
+                        <LabelElements>
+                            <ColumnID>1</ColumnID>
+                            <ID>dyn_framework_phone_contact_name4</ID>
+                            <Value>
+                                <Encoding />
+                                <Text />
+                            </Value>
+                            <Location>
+                                <LocationX>9</LocationX>
+                                <LocationY>16</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>578</SizeW>
+                                <SizeH>38</SizeH>
+                            </Size>
+                            <Font>
+                                <Name>GMSansUI-Regular</Name>
+                                <Size>28</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>0</TextAlign>
+                                <Color>255,255,255</Color>
+                                <TextDirection>1</TextDirection>
+                            </Font>
+                            <FocusFont>
+                                <Name />
+                                <Size />
+                                <Decoration />
+                                <TextAlign />
+                                <Color />
+                                <TextDirection />
+                            </FocusFont>
+                            <TextWrap />
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <OnFocusCallback />
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <SelectorState>
+                                <DataValue />
+                                <StaticValue />
+                                <Font>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                            </SelectorState>
+                        </LabelElements>
+                    </ElementData>
+                    <ElementData>
+                        <RowIndex>3</RowIndex>
+                        <UniqueID>dyn_framework_phone_contact_name3</UniqueID>
+                        <OnFocusCallback />
+                        <LabelElements>
+                            <ColumnID>1</ColumnID>
+                            <ID>dyn_framework_phone_contact_name3</ID>
+                            <Value>
+                                <Encoding />
+                                <Text />
+                            </Value>
+                            <Location>
+                                <LocationX>9</LocationX>
+                                <LocationY>16</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>578</SizeW>
+                                <SizeH>38</SizeH>
+                            </Size>
+                            <Font>
+                                <Name>GMSansUI-Regular</Name>
+                                <Size>28</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>0</TextAlign>
+                                <Color>255,255,255</Color>
+                                <TextDirection>1</TextDirection>
+                            </Font>
+                            <FocusFont>
+                                <Name />
+                                <Size />
+                                <Decoration />
+                                <TextAlign />
+                                <Color />
+                                <TextDirection />
+                            </FocusFont>
+                            <TextWrap />
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <OnFocusCallback />
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <SelectorState>
+                                <DataValue />
+                                <StaticValue />
+                                <Font>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                            </SelectorState>
+                        </LabelElements>
+                    </ElementData>
+                    <ElementData>
+                        <RowIndex>4</RowIndex>
+                        <UniqueID>dyn_framework_phone_contact_name2</UniqueID>
+                        <OnFocusCallback />
+                        <LabelElements>
+                            <ColumnID>1</ColumnID>
+                            <ID>dyn_framework_phone_contact_name2</ID>
+                            <Value>
+                                <Encoding />
+                                <Text />
+                            </Value>
+                            <Location>
+                                <LocationX>9</LocationX>
+                                <LocationY>16</LocationY>
+                            </Location>
+                            <Size>
+                                <SizeW>578</SizeW>
+                                <SizeH>38</SizeH>
+                            </Size>
+                            <Font>
+                                <Name>GMSansUI-Regular</Name>
+                                <Size>28</Size>
+                                <Decoration>0</Decoration>
+                                <TextAlign>0</TextAlign>
+                                <Color>255,255,255</Color>
+                                <TextDirection>1</TextDirection>
+                            </Font>
+                            <FocusFont>
+                                <Name />
+                                <Size />
+                                <Decoration />
+                                <TextAlign />
+                                <Color />
+                                <TextDirection />
+                            </FocusFont>
+                            <TextWrap />
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <OnFocusCallback />
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <SelectorState>
+                                <DataValue />
+                                <StaticValue />
+                                <Font>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </Font>
+                                <FocusFont>
+                                    <Name />
+                                    <Size />
+                                    <Decoration />
+                                    <TextAlign />
+                                    <Color />
+                                    <TextDirection />
+                                </FocusFont>
+                            </SelectorState>
+                        </LabelElements>
+                    </ElementData>
+                    <ListInputWidgetMapping>
+                        <UserInput />
+                        <WidgetInput />
+                        <EventCallbackString />
+                    </ListInputWidgetMapping>
+                </ListWidget>
+                <ScrollBarWidget>
+                    <ID>scrollbar_alphapaging</ID>
+                    <UUID />
+                    <ListID>phone_btcontact_details</ListID>
+                    <Location>
+                        <LocationX>12</LocationX>
+                        <LocationY>87</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>72</SizeW>
+                        <SizeH>319</SizeH>
+                    </Size>
+                    <Track>
+                        <TrackHousing>
+                            <ID />
+                            <Location>
+                                <LocationX />
+                                <LocationY />
+                            </Location>
+                            <Size>
+                                <SizeW />
+                                <SizeH />
+                            </Size>
+                            <TabOrder>
+                                <TabV />
+                                <TabH />
+                            </TabOrder>
+                            <NormalURL />
+                            <FocusURL />
+                            <Alpha>100</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <OnFocusCallback />
+                            <ZOrder>2</ZOrder>
+                            <SelectorState>
+                                <DataValue />
+                                <NormalURL />
+                                <FocusURL />
+                            </SelectorState>
+                        </TrackHousing>
+                        <ThumbHousing>
+                            <ID />
+                            <Location>
+                                <LocationX />
+                                <LocationY />
+                            </Location>
+                            <Size>
+                                <SizeW />
+                                <SizeH />
+                            </Size>
+                            <TabOrder>
+                                <TabV />
+                                <TabH />
+                            </TabOrder>
+                            <NormalURL />
+                            <FocusURL />
+                            <Alpha>0</Alpha>
+                            <InputWidgetMapping>
+                                <UserInput />
+                                <WidgetCallback />
+                            </InputWidgetMapping>
+                            <OnFocusCallback />
+                            <ZOrder />
+                            <SelectorState>
+                                <DataValue />
+                                <NormalURL />
+                                <FocusURL />
+                            </SelectorState>
+                        </ThumbHousing>
+                    </Track>
+                    <IncrementArrow>
+                        <ID>img_scroll_up_selector</ID>
+                        <ImageWidgetID>img_scroll_up_selector</ImageWidgetID>
+                        <UUID />
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>10</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>72</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                        <NormalURL>ThemeB/scroll_up_normal.png</NormalURL>
+                        <FocusURL>ThemeB/scroll_up_highlight.png</FocusURL>
+                        <Alpha>100</Alpha>
+                        <InputWidgetMapping>
+                            <UserInput />
+                            <WidgetCallback />
+                        </InputWidgetMapping>
+                        <OnFocusCallback />
+                        <ZOrder>4</ZOrder>
+                        <SelectorState>
+                            <DataValue />
+                            <NormalURL />
+                            <FocusURL />
+                        </SelectorState>
+                    </IncrementArrow>
+                    <DecrementArrow>
+                        <ID>img_scroll_down_selector</ID>
+                        <ImageWidgetID>img_scroll_down_selector</ImageWidgetID>
+                        <UUID />
+                        <Location>
+                            <LocationX>0</LocationX>
+                            <LocationY>220</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>72</SizeW>
+                            <SizeH>70</SizeH>
+                        </Size>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                        <NormalURL>ThemeB/scroll_down_normal.png</NormalURL>
+                        <FocusURL>ThemeB/scroll_down_highlight.png</FocusURL>
+                        <Alpha>100</Alpha>
+                        <InputWidgetMapping>
+                            <UserInput />
+                            <WidgetCallback />
+                        </InputWidgetMapping>
+                        <OnFocusCallback />
+                        <ZOrder>5</ZOrder>
+                        <SelectorState>
+                            <DataValue />
+                            <NormalURL />
+                            <FocusURL />
+                        </SelectorState>
+                    </DecrementArrow>
+                    <Alpha>100</Alpha>
+                    <ZOrder />
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                </ScrollBarWidget>
+                <ButtonWidget>
+                    <ID>btn_a_z_button_selector</ID>
+                    <ImageWidget>
+                        <ID>a_z_button_selector</ID>
+                        <Location>
+                            <LocationX>8</LocationX>
+                            <LocationY>168</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>80</SizeW>
+                            <SizeH>137</SizeH>
+                        </Size>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                        <NormalURL>ThemeB/a_z_button_normal.png</NormalURL>
+                        <FocusURL>ThemeB/a_z_button_highlight.png</FocusURL>
+                        <Alpha>100</Alpha>
+                        <InputWidgetMapping>
+                            <UserInput />
+                            <WidgetCallback />
+                        </InputWidgetMapping>
+                        <OnFocusCallback />
+                        <ZOrder>14</ZOrder>
+                    </ImageWidget>
+                    <LabelWidget>
+                        <ID>ui_a_hyphen_z</ID>
+                        <Value>
+                            <Encoding />
+                            <Text />
+                            <!-- Refer to sourceType string in strings.xml -->
+                        </Value>
+                        <Location>
+                            <LocationX>8</LocationX>
+                            <LocationY>219</LocationY>
+                        </Location>
+                        <Size>
+                            <SizeW>80</SizeW>
+                            <SizeH>38</SizeH>
+                        </Size>
+                        <TabOrder>
+                            <TabV />
+                            <TabH />
+                        </TabOrder>
+                        <Font>
+                            <Name>GMSansUI-Light</Name>
+                            <Size>28</Size>
+                            <Decoration>0</Decoration>
+                            <TextAlign>2</TextAlign>
+                            <Color>255, 255, 255</Color>
+                            <TextDirection>0</TextDirection>
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                        <TextWrap>1</TextWrap>
+                        <InputWidgetMapping>
+                            <UserInput />
+                            <WidgetCallback />
+                        </InputWidgetMapping>
+                        <OnFocusCallback />
+                        <Alpha>100</Alpha>
+                        <ZOrder>14</ZOrder>
+                    </LabelWidget>
+                </ButtonWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

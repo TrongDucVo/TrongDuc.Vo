@@ -1,0 +1,3829 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<DisplayID>2</DisplayID>
+		<Size>
+			<SizeW>800</SizeW>
+			<SizeH>480</SizeH>
+		</Size>
+		<View>
+			<ViewID/>
+			<ZOrder/>
+			<Screen>
+				<ScreenID>ics_audio_tone_setting_equalizer_no_surround</ScreenID>
+				<UUID />
+				<ImageWidget>
+					<ID>img_bg_main</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>480</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bg_main.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_actionbar_bg</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/actionbar_bg.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_back_carat_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>87</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/back_normal.png</NormalURL>
+					<FocusURL>ThemeB/back_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_close_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>714</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>86</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/close_normal.png</NormalURL>
+					<FocusURL>ThemeB/close_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>4</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>86</LocationX>
+						<LocationY>20</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>5</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>713</LocationX>
+						<LocationY>20</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>6</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget><ID>img_function_separator_audio</ID><UUID/><Location><LocationX>0</LocationX><LocationY>68</LocationY></Location><Size><SizeW>800</SizeW><SizeH>2</SizeH></Size><TabOrder><TabV/><TabH/></TabOrder><NormalURL>ThemeB/function_separator_audio.png</NormalURL><FocusURL/><Alpha>100</Alpha><InputWidgetMapping><UserInput/><WidgetCallback/></InputWidgetMapping><OnFocusCallback/><ZOrder>7</ZOrder><SelectorState><DataValue/><NormalURL/><FocusURL/></SelectorState></ImageWidget>
+				<LabelWidget>
+					<ID>audio_sound_big</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>105</LocationX>
+						<LocationY>16</LocationY>
+					</Location>
+					<Size>
+						<SizeW>587</SizeW>
+						<SizeH>38</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Medium</Name>
+						<Size>28</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>0</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ButtonWidget>
+					<ID>btn_audio_tonesettings_button</ID>
+					<ImageWidget>
+						<ID>img_audio_tonesettings_button</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>131</LocationY>
+						</Location>
+						<Size>
+							<SizeW>182</SizeW>
+							<SizeH>84</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/button_inactive.png</NormalURL>
+						<FocusURL>ThemeB/button_active.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>25</ZOrder>
+					</ImageWidget>
+					<LabelWidget>
+						<ID>audio_equalizer</ID>
+						<Value>
+							<Encoding />
+							<Text />
+							<!-- Refer to sourceType string in strings.xml -->
+						</Value>
+						<Location>
+							<LocationX>40</LocationX>
+							<LocationY>156</LocationY>
+						</Location>
+						<Size>
+							<SizeW>150</SizeW>
+							<SizeH>32</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<Font>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</FocusFont>
+						<TextWrap>1</TextWrap>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<Alpha>100</Alpha>
+						<ZOrder>26</ZOrder>
+					</LabelWidget>
+				</ButtonWidget>
+				<ButtonWidget>
+					<ID>btn_audio_tonesettings_button</ID>
+					<ImageWidget>
+						<ID>img_audio_tonesettings_button</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>216</LocationY>
+						</Location>
+						<Size>
+							<SizeW>182</SizeW>
+							<SizeH>84</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/button_inactive.png</NormalURL>
+						<FocusURL>ThemeB/button_active.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>25</ZOrder>
+					</ImageWidget>
+					<LabelWidget>
+						<ID>audio_fade</ID>
+						<Value>
+							<Encoding />
+							<Text />
+							<!-- Refer to sourceType string in strings.xml -->
+						</Value>
+						<Location>
+							<LocationX>40</LocationX>
+							<LocationY>225</LocationY>
+						</Location>
+						<Size>
+							<SizeW>150</SizeW>
+							<SizeH>64</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<Font>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</FocusFont>
+						<TextWrap>1</TextWrap>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<Alpha>100</Alpha>
+						<ZOrder>26</ZOrder>
+					</LabelWidget>
+				</ButtonWidget>
+				<ButtonWidget>
+					<ID>btn_audio_tonesettings_button</ID>
+					<ImageWidget>
+						<ID>img_audio_tonesettings_button</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>302</LocationY>
+						</Location>
+						<Size>
+							<SizeW>182</SizeW>
+							<SizeH>84</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/button_inactive.png</NormalURL>
+						<FocusURL>ThemeB/button_active.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>25</ZOrder>
+					</ImageWidget>
+					<LabelWidget>
+						<ID>audio_sound_mode_reg_23_168_70</ID>
+						<Value>
+							<Encoding />
+							<Text />
+							<!-- Refer to sourceType string in strings.xml -->
+						</Value>
+						<Location>
+							<LocationX>40</LocationX>
+							<LocationY>310</LocationY>
+						</Location>
+						<Size>
+							<SizeW>150</SizeW>
+							<SizeH>64</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<Font>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</FocusFont>
+						<TextWrap>1</TextWrap>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<Alpha>100</Alpha>
+						<ZOrder>26</ZOrder>
+					</LabelWidget>
+				</ButtonWidget>
+				<ImageWidget>
+					<ID>img_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>234</LocationX>
+						<LocationY>138</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>314</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>6</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>ui_bass</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>241</LocationX>
+						<LocationY>92</LocationY>
+					</Location>
+					<Size>
+						<SizeW>112</SizeW>
+						<SizeH>32</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>23</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_scroll_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>263</LocationX>
+						<LocationY>127</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/scroll_up_normal.png</NormalURL>
+					<FocusURL>ThemeB/scroll_up_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>17</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>204</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>210</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>19</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>216</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>20</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>222</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>21</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>228</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>22</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>234</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>23</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>24</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>246</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>25</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>252</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>26</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>258</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>27</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>264</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>28</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>270</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>29</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_ui_plus_12</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>255</LocationX>
+						<LocationY>273</LocationY>
+					</Location>
+					<Size>
+						<SizeW>84</SizeW>
+						<SizeH>42</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Light</Name>
+						<Size>31</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>317</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>31</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>323</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>32</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>329</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>33</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>335</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>34</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>341</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>35</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>347</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>36</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>353</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>37</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>359</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>38</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>365</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>39</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>371</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>40</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>377</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>41</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>268</LocationX>
+						<LocationY>383</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>42</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Bass bottom detents ends here -->
+				<ImageWidget>
+					<ID>img_scroll_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>263</LocationX>
+						<LocationY>392</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/scroll_down_normal.png</NormalURL>
+					<FocusURL>ThemeB/scroll_down_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>43</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Bass options ends here -->
+				<ImageWidget>
+					<ID>img_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>361</LocationX>
+						<LocationY>138</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>314</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>44</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>ui_midrange</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>370</LocationX>
+						<LocationY>92</LocationY>
+					</Location>
+					<Size>
+						<SizeW>112</SizeW>
+						<SizeH>32</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>23</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_scroll_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>390</LocationX>
+						<LocationY>127</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/scroll_up_normal.png</NormalURL>
+					<FocusURL>ThemeB/scroll_up_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>46</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Midrange top detents starts here -->
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>204</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>47</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>210</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>48</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>216</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>49</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>222</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>50</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>228</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>51</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>234</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>52</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>53</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>246</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>54</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>252</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>55</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>258</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>56</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>264</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>57</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>270</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>58</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_ui_plus_8</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>382</LocationX>
+						<LocationY>273</LocationY>
+					</Location>
+					<Size>
+						<SizeW>84</SizeW>
+						<SizeH>42</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Light</Name>
+						<Size>31</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>317</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>60</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>323</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>61</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>329</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>62</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>335</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>63</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>341</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>64</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>347</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>65</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>353</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>66</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>359</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>67</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>365</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>68</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>371</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>69</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>377</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>70</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>394</LocationX>
+						<LocationY>383</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>71</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!--Midrange bottom detents ends here -->
+				<ImageWidget>
+					<ID>img_scroll_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>390</LocationX>
+						<LocationY>392</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/scroll_down_normal.png</NormalURL>
+					<FocusURL>ThemeB/scroll_down_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>72</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Midrange options ends here -->
+				<ImageWidget>
+					<ID>img_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>488</LocationX>
+						<LocationY>138</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>314</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>73</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Treble options starts here -->
+				<LabelWidget>
+					<ID>ui_treble</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>500</LocationX>
+						<LocationY>92</LocationY>
+					</Location>
+					<Size>
+						<SizeW>112</SizeW>
+						<SizeH>32</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>23</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_scroll_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>517</LocationX>
+						<LocationY>127</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/scroll_up_normal.png</NormalURL>
+					<FocusURL>ThemeB/scroll_up_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>75</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Treble top detents starts here -->
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>204</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>76</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>210</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>77</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>216</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>78</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>222</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>79</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>228</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>80</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>234</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>81</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>240</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>82</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>246</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>83</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>252</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>84</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>258</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>85</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>264</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>86</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>270</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>87</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Treble top detents ends here -->
+				<LabelWidget>
+					<ID>dyn_ui_minus_6</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>509</LocationX>
+						<LocationY>273</LocationY>
+					</Location>
+					<Size>
+						<SizeW>84</SizeW>
+						<SizeH>42</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Light</Name>
+						<Size>31</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>317</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>89</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>323</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>90</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>329</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>91</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>335</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>92</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>341</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>93</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>347</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_active.png</NormalURL>
+					<FocusURL>ThemeB/detent_inactive.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>94</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>353</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>95</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>359</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>96</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>365</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>97</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>371</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>98</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>377</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>99</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_detent_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>521</LocationX>
+						<LocationY>383</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/detent_inactive.png</NormalURL>
+					<FocusURL>ThemeB/detent_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>100</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Treble bottom detents ends here -->
+				<ImageWidget>
+					<ID>img_scroll_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>517</LocationX>
+						<LocationY>392</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/scroll_down_normal.png</NormalURL>
+					<FocusURL>ThemeB/scroll_down_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>101</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- Treble options ends here -->
+				<ImageWidget>
+					<ID>img_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>615</LocationX>
+						<LocationY>138</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>314</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>102</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!--Surround options starts here -->
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

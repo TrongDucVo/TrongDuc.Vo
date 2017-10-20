@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<DisplayID>2</DisplayID>
+		<Size>
+			<SizeW>800</SizeW>
+			<SizeH>480</SizeH>
+		</Size>
+		<View>
+			<ViewID/>
+			<ZOrder/>
+			<Screen>
+				<ScreenID>ics_audio_tone_setting_fade</ScreenID>
+				<UUID />
+				<ImageWidget>
+					<ID>img_bg_main</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>480</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bg_main.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_actionbar_bg</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/actionbar_bg.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_back_carat_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>87</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/back_normal.png</NormalURL>
+					<FocusURL>ThemeB/back_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_close_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>714</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>86</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/close_normal.png</NormalURL>
+					<FocusURL>ThemeB/close_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>4</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>86</LocationX>
+						<LocationY>20</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>5</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>713</LocationX>
+						<LocationY>20</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>6</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget><ID>img_function_separator_audio</ID><UUID/><Location><LocationX>0</LocationX><LocationY>68</LocationY></Location><Size><SizeW>800</SizeW><SizeH>2</SizeH></Size><TabOrder><TabV/><TabH/></TabOrder><NormalURL>ThemeB/function_separator_audio.png</NormalURL><FocusURL/><Alpha>100</Alpha><InputWidgetMapping><UserInput/><WidgetCallback/></InputWidgetMapping><OnFocusCallback/><ZOrder>7</ZOrder><SelectorState><DataValue/><NormalURL/><FocusURL/></SelectorState></ImageWidget>
+				<LabelWidget>
+					<ID>audio_sound_big</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Location>
+						<LocationX>105</LocationX>
+						<LocationY>16</LocationY>
+					</Location>
+					<Size>
+						<SizeW>587</SizeW>
+						<SizeH>38</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Font>
+						<Name>GMSansUI-Medium</Name>
+						<Size>28</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>0</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ButtonWidget>
+					<ID>btn_audio_tonesettings_button</ID>
+					<ImageWidget>
+						<ID>img_audio_tonesettings_button</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>131</LocationY>
+						</Location>
+						<Size>
+							<SizeW>182</SizeW>
+							<SizeH>84</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/button_inactive.png</NormalURL>
+						<FocusURL>ThemeB/button_active.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>25</ZOrder>
+					</ImageWidget>
+					<LabelWidget>
+						<ID>audio_equalizer</ID>
+						<Value>
+							<Encoding />
+							<Text />
+							<!-- Refer to sourceType string in strings.xml -->
+						</Value>
+						<Location>
+							<LocationX>40</LocationX>
+							<LocationY>156</LocationY>
+						</Location>
+						<Size>
+							<SizeW>150</SizeW>
+							<SizeH>32</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<Font>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</FocusFont>
+						<TextWrap>1</TextWrap>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<Alpha>100</Alpha>
+						<ZOrder>26</ZOrder>
+					</LabelWidget>
+				</ButtonWidget>
+				<ButtonWidget>
+					<ID>btn_audio_tonesettings_button</ID>
+					<ImageWidget>
+						<ID>img_audio_tonesettings_button</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>216</LocationY>
+						</Location>
+						<Size>
+							<SizeW>182</SizeW>
+							<SizeH>84</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/button_inactive.png</NormalURL>
+						<FocusURL>ThemeB/button_active.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>25</ZOrder>
+					</ImageWidget>
+					<LabelWidget>
+						<ID>audio_fade</ID>
+						<Value>
+							<Encoding />
+							<Text />
+							<!-- Refer to sourceType string in strings.xml -->
+						</Value>
+						<Location>
+							<LocationX>40</LocationX>
+							<LocationY>225</LocationY>
+						</Location>
+						<Size>
+							<SizeW>150</SizeW>
+							<SizeH>64</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<Font>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</FocusFont>
+						<TextWrap>1</TextWrap>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<Alpha>100</Alpha>
+						<ZOrder>26</ZOrder>
+					</LabelWidget>
+				</ButtonWidget>
+				<ButtonWidget>
+					<ID>btn_audio_tonesettings_button</ID>
+					<ImageWidget>
+						<ID>img_audio_tonesettings_button</ID>
+						<Location>
+							<LocationX>27</LocationX>
+							<LocationY>302</LocationY>
+						</Location>
+						<Size>
+							<SizeW>182</SizeW>
+							<SizeH>84</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/button_inactive.png</NormalURL>
+						<FocusURL>ThemeB/button_active.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>25</ZOrder>
+					</ImageWidget>
+					<LabelWidget>
+						<ID>audio_sound_mode_reg_23_168_70</ID>
+						<Value>
+							<Encoding />
+							<Text />
+							<!-- Refer to sourceType string in strings.xml -->
+						</Value>
+						<Location>
+							<LocationX>40</LocationX>
+							<LocationY>310</LocationY>
+						</Location>
+						<Size>
+							<SizeW>150</SizeW>
+							<SizeH>64</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<Font>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name>GMSansUI-Regular</Name>
+							<Size>23</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection />
+						</FocusFont>
+						<TextWrap>1</TextWrap>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<Alpha>100</Alpha>
+						<ZOrder>26</ZOrder>
+					</LabelWidget>
+				</ButtonWidget>
+				<ImageWidget>
+					<ID>img_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>234</LocationX>
+						<LocationY>138</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>314</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>6</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_tone_box</ID>
+					<UUID />
+					<Location>
+						<LocationX>405</LocationX>
+						<LocationY>179</LocationY>
+					</Location>
+					<Size>
+						<SizeW>168</SizeW>
+						<SizeH>188</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/tone_box.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>7</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_grid</ID>
+					<UUID />
+					<Location>
+						<LocationX>405</LocationX>
+						<LocationY>179</LocationY>
+					</Location>
+					<Size>
+						<SizeW>168</SizeW>
+						<SizeH>188</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/grid.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>8</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_ball</ID>
+					<UUID />
+					<Location>
+						<LocationX>470</LocationX>
+						<LocationY>254</LocationY>
+					</Location>
+					<Size>
+						<SizeW>38</SizeW>
+						<SizeH>38</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/ball.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>9</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_move_left_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>312</LocationX>
+						<LocationY>236</LocationY>
+					</Location>
+					<Size>
+						<SizeW>75</SizeW>
+						<SizeH>75</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/move_left_inactive.png</NormalURL>
+					<FocusURL>ThemeB/move_left_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>10</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_move_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>452</LocationX>
+						<LocationY>87</LocationY>
+					</Location>
+					<Size>
+						<SizeW>75</SizeW>
+						<SizeH>75</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/move_up_inactive.png</NormalURL>
+					<FocusURL>ThemeB/move_up_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>11</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_move_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>451</LocationX>
+						<LocationY>385</LocationY>
+					</Location>
+					<Size>
+						<SizeW>75</SizeW>
+						<SizeH>75</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/move_down_inactive.png</NormalURL>
+					<FocusURL>ThemeB/move_down_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>12</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_move_right_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>592</LocationX>
+						<LocationY>236</LocationY>
+					</Location>
+					<Size>
+						<SizeW>75</SizeW>
+						<SizeH>75</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/move_right_inactive.png</NormalURL>
+					<FocusURL>ThemeB/move_right_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>13</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>742</LocationX>
+						<LocationY>138</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>314</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>14</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

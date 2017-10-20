@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+    <Display>
+        <DisplayID>2</DisplayID>
+        <Size>
+            <SizeW>800</SizeW>
+            <SizeH>480</SizeH>
+        </Size>
+        <View>
+            <ViewID></ViewID>
+            <ZOrder></ZOrder>
+            <Screen>
+                <ScreenID>ics_settings_system_timedate_settime1</ScreenID>
+                <ImageWidget>
+                    <ID>img_bg_main</ID>
+                    <UUID />
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>480</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/bg_main.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>0</ZOrder>
+                </ImageWidget>
+				<!--     Action Bar Starts here -->
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_actionbar_bg</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>70</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/actionbar_bg.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>2</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_back_carat_selector</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>87</SizeW>
+                        <SizeH>70</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/back_normal.png</NormalURL>
+                    <FocusURL>ThemeB/back_highlight.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_close_selector</ID>
+                    <Location>
+                        <LocationX>714</LocationX>
+                        <LocationY>0</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>86</SizeW>
+                        <SizeH>70</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/close_normal.png</NormalURL>
+                    <FocusURL>ThemeB/close_highlight.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>4</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_statusbar_timetemp_separator</ID>
+                    <Location>
+                        <LocationX>86</LocationX>
+                        <LocationY>20</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2</SizeW>
+                        <SizeH>31</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>5</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_statusbar_timetemp_separator</ID>
+                    <Location>
+                        <LocationX>713</LocationX>
+                        <LocationY>20</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2</SizeW>
+                        <SizeH>31</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>6</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_function_separator</ID>
+                    <Location>
+                        <LocationX>0</LocationX>
+                        <LocationY>68</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>800</SizeW>
+                        <SizeH>2</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/function_separator.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>7</ZOrder>
+                </ImageWidget>
+                <!--     Action Bar Ends here -->
+            	<LabelWidget>
+                    <UUID />
+                    <ID>settings_set_time_big</ID>
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>105</LocationX>
+                        <LocationY>16</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>587</SizeW>
+                        <SizeH>38</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Medium</Name>
+                        <Size>28</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>0</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_scroll_up_selector_1</ID>
+                    <Location>
+                        <LocationX>76</LocationX>
+                        <LocationY>110</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/scroll_up_normal_1.png</NormalURL>
+                    <FocusURL>ThemeB/scroll_up_highlight_1.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <UUID />
+                    <ID>dyn_settings_time_hr</ID>
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>75</LocationX>
+                        <LocationY>199</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>65</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>49</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_scroll_down_selector_1</ID>
+                    <Location>
+                        <LocationX>76</LocationX>
+                        <LocationY>275</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/scroll_down_normal_1.png</NormalURL>
+                    <FocusURL>ThemeB/scroll_down_highlight_1.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>5</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <UUID />
+                    <ID>settings_colon</ID>
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>158</LocationX>
+                        <LocationY>199</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>45</SizeW>
+                        <SizeH>50</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>49</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_scroll_up_selector_1</ID>
+                    <Location>
+                        <LocationX>205</LocationX>
+                        <LocationY>110</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/scroll_up_normal_1.png</NormalURL>
+                    <FocusURL>ThemeB/scroll_up_highlight_1.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <UUID />
+                    <ID>dyn_settings_time_min</ID>
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>206</LocationX>
+                        <LocationY>199</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>89</SizeW>
+                        <SizeH>65</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>49</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>4</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_scroll_down_selector_1</ID>
+                    <Location>
+                        <LocationX>205</LocationX>
+                        <LocationY>275</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/scroll_down_normal_1.png</NormalURL>
+                    <FocusURL>ThemeB/scroll_down_highlight_1.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>5</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_scroll_up_selector_1</ID>
+                    <Location>
+                        <LocationX>334</LocationX>
+                        <LocationY>110</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/scroll_up_normal_1.png</NormalURL>
+                    <FocusURL>ThemeB/scroll_up_highlight_1.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>6</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <UUID />
+                    <ID>ui_pm</ID>
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>298</LocationX>
+                        <LocationY>199</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>152</SizeW>
+                        <SizeH>65</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Light</Name>
+                        <Size>49</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>2</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>ui_pm</StaticValue>
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                    <SelectorState>
+                        <DataValue>0</DataValue>
+                        <StaticValue>ui_am</StaticValue>
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_scroll_down_selector_1</ID>
+                    <Location>
+                        <LocationX>334</LocationX>
+                        <LocationY>275</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>80</SizeW>
+                        <SizeH>80</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/scroll_down_normal_1.png</NormalURL>
+                    <FocusURL>ThemeB/scroll_down_highlight_1.png</FocusURL>
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <ImageWidget>
+                    <UUID />
+                    <ID>img_settings_screen_divider</ID>
+                    <Location>
+                        <LocationX>488</LocationX>
+                        <LocationY>70</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>2</SizeW>
+                        <SizeH>410</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <NormalURL>ThemeB/settings_screen_divider.png</NormalURL>
+                    <FocusURL />
+                    <Alpha>100</Alpha>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <ZOrder>3</ZOrder>
+                </ImageWidget>
+                <LabelWidget>
+                    <UUID />
+                    <ID>settings_set_time_content</ID>
+                    <Value>
+                        <Encoding />
+                        <Text />
+                    </Value>
+                    <Location>
+                        <LocationX>502</LocationX>
+                        <LocationY>86</LocationY>
+                    </Location>
+                    <Size>
+                        <SizeW>288</SizeW>
+                        <SizeH>377</SizeH>
+                    </Size>
+                    <TabOrder>
+                        <TabV />
+                        <TabH />
+                    </TabOrder>
+                    <Font>
+                        <Name>GMSansUI-Regular</Name>
+                        <Size>23</Size>
+                        <Decoration>0</Decoration>
+                        <TextAlign>0</TextAlign>
+                        <Color>255, 255, 255</Color>
+                        <TextDirection>0</TextDirection>
+                    </Font>
+                    <FocusFont>
+                        <Name />
+                        <Size />
+                        <Decoration />
+                        <TextAlign />
+                        <Color />
+                        <TextDirection />
+                    </FocusFont>
+                    <TextWrap>1</TextWrap>
+                    <InputWidgetMapping>
+                        <UserInput />
+                        <WidgetCallback />
+                    </InputWidgetMapping>
+                    <OnFocusCallback />
+                    <Alpha>100</Alpha>
+                    <ZOrder>1</ZOrder>
+                    <SelectorState>
+                        <DataValue />
+                        <StaticValue />
+                        <Font>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </Font>
+                        <FocusFont>
+                            <Name />
+                            <Size />
+                            <Decoration />
+                            <TextAlign />
+                            <Color />
+                            <TextDirection />
+                        </FocusFont>
+                    </SelectorState>
+                </LabelWidget>
+            </Screen>
+        </View>
+    </Display>
+</GMXML>

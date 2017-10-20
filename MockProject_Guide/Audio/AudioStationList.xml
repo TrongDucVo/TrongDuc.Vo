@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<DisplayID>2</DisplayID>
+		<Size>
+			<SizeW>800</SizeW>
+			<SizeH>480</SizeH>
+		</Size>
+		<View>
+			<ViewID/>
+			<ZOrder/>
+			<Screen>
+				<ScreenID>ics_audio_fm_station_list_zoom_bubble</ScreenID>
+				<UUID />
+				<ImageWidget>
+					<ID>img_bg_main</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>480</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bg_main.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_actionbar_bg</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/actionbar_bg.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_back_carat_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>87</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/back_normal.png</NormalURL>
+					<FocusURL>ThemeB/back_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_close_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>714</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>86</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/close_normal.png</NormalURL>
+					<FocusURL>ThemeB/close_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>4</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>86</LocationX>
+						<LocationY>20</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>5</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>713</LocationX>
+						<LocationY>20</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>6</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalURL />
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget><ID>img_function_separator_audio</ID><UUID/><Location><LocationX>0</LocationX><LocationY>68</LocationY></Location><Size><SizeW>800</SizeW><SizeH>2</SizeH></Size><TabOrder><TabV/><TabH/></TabOrder><NormalURL>ThemeB/function_separator_audio.png</NormalURL><FocusURL/><Alpha>100</Alpha><InputWidgetMapping><UserInput/><WidgetCallback/></InputWidgetMapping><OnFocusCallback/><ZOrder>7</ZOrder><SelectorState><DataValue/><NormalURL/><FocusURL/></SelectorState></ImageWidget>
+				<LabelWidget>
+					<ID>audio_fm_stations</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Medium</Name>
+						<Size>28</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>0</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>105</LocationX>
+						<LocationY>16</LocationY>
+					</Location>
+					<Size>
+						<SizeW>587</SizeW>
+						<SizeH>38</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>2</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ScrollBarWidget>
+					<ID>scrollbar_long</ID>
+					<UUID />
+					<ListID>fm_station_list_zoom_bubble</ListID>
+					<Location>
+						<LocationX>12</LocationX>
+						<LocationY>91</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>389</SizeH>
+					</Size>
+					<Track>
+						<TrackHousing>
+							<ID>img_scrollbar_bg_long</ID>
+							<ImageWidgetID>img_scrollbar_bg_long</ImageWidgetID>
+							<UUID />
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>72</SizeW>
+								<SizeH>233</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL>ThemeB/scrollbar_bg_long.png</NormalURL>
+							<FocusURL />
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>2</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</TrackHousing>
+						<ThumbHousing>
+							<ID>img_scrollbar_indicator_long</ID>
+							<ImageWidgetID>img_scrollbar_indicator_long</ImageWidgetID>
+							<UUID />
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>72</SizeW>
+								<SizeH>120</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL>ThemeB/scrollbar_indicator_long.png</NormalURL>
+							<FocusURL />
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>3</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ThumbHousing>
+					</Track>
+					<IncrementArrow>
+						<ID>img_scroll_up_selector</ID>
+						<ImageWidgetID>img_scroll_up_selector</ImageWidgetID>
+						<UUID />
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>239</LocationY>
+						</Location>
+						<Size>
+							<SizeW>72</SizeW>
+							<SizeH>70</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/scroll_up_normal.png</NormalURL>
+						<FocusURL>ThemeB/scroll_up_highlight.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>4</ZOrder>
+						<SelectorState>
+							<DataValue />
+							<NormalURL />
+							<FocusURL />
+						</SelectorState>
+					</IncrementArrow>
+					<DecrementArrow>
+						<ID>img_scroll_down_selector</ID>
+						<ImageWidgetID>img_scroll_down_selector</ImageWidgetID>
+						<UUID />
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>310</LocationY>
+						</Location>
+						<Size>
+							<SizeW>72</SizeW>
+							<SizeH>70</SizeH>
+						</Size>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+						<NormalURL>ThemeB/scroll_down_normal.png</NormalURL>
+						<FocusURL>ThemeB/scroll_down_highlight.png</FocusURL>
+						<Alpha>100</Alpha>
+						<InputWidgetMapping>
+							<UserInput />
+							<WidgetCallback />
+						</InputWidgetMapping>
+						<OnFocusCallback />
+						<ZOrder>5</ZOrder>
+						<SelectorState>
+							<DataValue />
+							<NormalURL />
+							<FocusURL />
+						</SelectorState>
+					</DecrementArrow>
+					<Alpha>100</Alpha>
+					<ZOrder />
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+				</ScrollBarWidget>
+				<ListWidget>
+					<ListID>fm_station_list_zoom_bubble</ListID>
+					<UUID />
+					<Location>
+						<LocationX>95</LocationX>
+						<LocationY>70</LocationY>
+					</Location>
+					<Size>
+						<SizeW>704</SizeW>
+						<SizeH>410</SizeH>
+					</Size>
+					<FocusedRow>0</FocusedRow>
+					<BackgroundURL />
+					<RowLayout>
+						<Size>
+							<SizeW>704</SizeW>
+							<SizeH>68</SizeH>
+						</Size>
+						<RowSpacing>1</RowSpacing>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<NormalURL />
+						<FocusURL>ThemeB/list_blue_highlight_68.png</FocusURL>
+						<RowSeparatorImageURL>ThemeB/list_line_divider.png</RowSeparatorImageURL>
+					</RowLayout>
+					<ZOrder>7</ZOrder>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<TotalRowCount>6</TotalRowCount>
+					<AlphaData>
+						<ImageURL />
+						<BackgroundPosition>
+							<LocationX />
+							<LocationY />
+						</BackgroundPosition>
+						<Size>
+							<SizeW />
+							<SizeH />
+						</Size>
+						<LetterIndexArray>
+							<Character>
+								<Encoding />
+								<Text />
+							</Character>
+							<DisplayNumber />
+							<UniqueID />
+						</LetterIndexArray>
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign>2</TextAlign>
+							<Color />
+							<TextDirection />
+						</Font>
+						<CharacterPosition>
+							<LocationX />
+							<LocationY />
+						</CharacterPosition>
+					</AlphaData>
+					<ElementData>
+						<RowIndex>1</RowIndex>
+						<UniqueID>ui_categories</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>ui_categories</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>663</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>2</RowIndex>
+						<UniqueID>audio_update_station_list</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>audio_update_station_list</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>332</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>3</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist1</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist1</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<LabelElements>
+							<ColumnID>2</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist8</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>142</LocationX>
+								<LocationY>16</LocationY>
+							</Location>
+							<Size>
+								<SizeW>389</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL />
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>4</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>4</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist2</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist2</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<LabelElements>
+							<ColumnID>2</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist11</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>142</LocationX>
+								<LocationY>16</LocationY>
+							</Location>
+							<Size>
+								<SizeW>389</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL>ThemeB/now_playing_icon_active.png</NormalURL>
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>4</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>5</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist3</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist3</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<LabelElements>
+							<ColumnID>2</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist9</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>142</LocationX>
+								<LocationY>16</LocationY>
+							</Location>
+							<Size>
+								<SizeW>389</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL />
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>4</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>6</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist4</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist4</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<LabelElements>
+							<ColumnID>2</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist10</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>142</LocationX>
+								<LocationY>16</LocationY>
+							</Location>
+							<Size>
+								<SizeW>389</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL />
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>4</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>7</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist6</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist6</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>2</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL />
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>8</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist3</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist3</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>2</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL />
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ElementData>
+						<RowIndex>9</RowIndex>
+						<UniqueID>dyn_audio_fm_categories_stationlist11</UniqueID>
+						<OnFocusCallback />
+						<LabelElements>
+							<ColumnID>1</ColumnID>
+							<ID>dyn_audio_fm_categories_stationlist11</ID>
+							<Value>
+								<Encoding />
+								<Text />
+							</Value>
+							<Location>
+								<LocationX>9</LocationX>
+								<LocationY>15</LocationY>
+							</Location>
+							<Size>
+								<SizeW>120</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>0</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<Alpha>100 </Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelElements>
+						<ImageElements>
+							<ColumnID>2</ColumnID>
+							<ID>img_now_playing_icon</ID>
+							<Location>
+								<LocationX>554</LocationX>
+								<LocationY>19</LocationY>
+							</Location>
+							<Size>
+								<SizeW>28</SizeW>
+								<SizeH>29</SizeH>
+							</Size>
+							<NormalURL />
+							<FocusURL>ThemeB/now_playing_icon_active.png</FocusURL>
+							<Alpha>0</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+						<ImageElements>
+							<ColumnID>3</ColumnID>
+							<ID>img_fav</ID>
+							<Location>
+								<LocationX>625</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>70</SizeW>
+								<SizeH>68</SizeH>
+							</Size>
+							<NormalURL>ThemeB/favorite_inactive.png</NormalURL>
+							<FocusURL>ThemeB/favorite_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<SelectorState>
+								<DataValue />
+								<NormalURL />
+								<FocusURL />
+							</SelectorState>
+						</ImageElements>
+					</ElementData>
+					<ListInputWidgetMapping>
+						<UserInput />
+						<WidgetInput />
+						<EventCallbackString />
+					</ListInputWidgetMapping>
+				</ListWidget>
+				<ImageWidget>
+					<ID>img_zoom_bubble</ID>
+					<UUID />
+					<Location>
+						<LocationX>307</LocationX>
+						<LocationY>156</LocationY>
+					</Location>
+					<Size>
+						<SizeW>182</SizeW>
+						<SizeH>182</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/zoom_bubble.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>8</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_audio_zoom_bubble_focus</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>49</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255,255,255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap />
+					<Location>
+						<LocationX>320</LocationX>
+						<LocationY>216</LocationY>
+					</Location>
+					<Size>
+						<SizeW>157</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>9</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>

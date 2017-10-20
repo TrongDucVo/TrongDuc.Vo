@@ -1,0 +1,2823 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GMXML>
+	<Display>
+		<DisplayID>2</DisplayID>
+		<Size>
+			<SizeW>800</SizeW>
+			<SizeH>480</SizeH>
+		</Size>
+		<View>
+			<ViewID>view_bg_main</ViewID>
+			<ZOrder>0</ZOrder>
+			<Screen>
+				<ScreenID>ics_climate_front_air_distribution</ScreenID>
+				<ImageWidget>
+					<ID>img_bg_main</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>480</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bg_main.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_bg</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_bg.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<!-- <TabView>
+					<ID>top_menu_2</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>0</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<TotalTabCount>2</TotalTabCount>
+					<TabSpacing />
+					<NormalURL />
+					<HighlightURL>ThemeB/climate_tab_active.png</HighlightURL>
+					<TabSeperatorImageURL>ThemeB/statusbar_timetemp_separator.png</TabSeperatorImageURL>
+					<TabItemLayout>
+						<TabID>tab_1</TabID>
+						<Location>
+							<LocationX>0</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>400</SizeW>
+							<SizeH>70</SizeH>
+						</Size>
+						<LabelWidget>
+							<ID>climate_front</ID>
+							<UUID />
+							<Value>
+								<Encoding>0</Encoding>
+								<Text />
+							</Value>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>23</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>2</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<TextWrap>0</TextWrap>
+							<Location>
+								<LocationX>15</LocationX>
+								<LocationY>20</LocationY>
+							</Location>
+							<Size>
+								<SizeW>369</SizeW>
+								<SizeH>32</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>20</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<LiteralValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelWidget>
+						<ImageWidget>
+							<ID>img_climate_tab</ID>
+							<UUID />
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>399</SizeW>
+								<SizeH>70</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL />
+							<FocusURL>ThemeB/climate_tab_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>19</ZOrder>
+						</ImageWidget>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+					</TabItemLayout>
+					<TabItemLayout>
+						<TabID>tab_2</TabID>
+						<Location>
+							<LocationX>400</LocationX>
+							<LocationY>0</LocationY>
+						</Location>
+						<Size>
+							<SizeW>400</SizeW>
+							<SizeH>70</SizeH>
+						</Size>
+						<LabelWidget>
+							<ID>climate_rear</ID>
+							<UUID />
+							<Value>
+								<Encoding>0</Encoding>
+								<Text />
+							</Value>
+							<Font>
+								<Name>GMSansUI-Regular</Name>
+								<Size>23</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>2</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<TextWrap>0</TextWrap>
+							<Location>
+								<LocationX>15</LocationX>
+								<LocationY>20</LocationY>
+							</Location>
+							<Size>
+								<SizeW>369</SizeW>
+								<SizeH>32</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>20</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<LiteralValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelWidget>
+						<ImageWidget>
+							<ID>img_climate_tab</ID>
+							<UUID />
+							<Location>
+								<LocationX>0</LocationX>
+								<LocationY>0</LocationY>
+							</Location>
+							<Size>
+								<SizeW>399</SizeW>
+								<SizeH>70</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL />
+							<FocusURL>ThemeB/climate_tab_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>19</ZOrder>
+						</ImageWidget>
+						<TabOrder>
+							<TabV />
+							<TabH />
+						</TabOrder>
+					</TabItemLayout>
+					<ZOrder>1</ZOrder>
+				</TabView>
+				 --> <ImageWidget>
+					<ID>img_function_separator_climate</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>68</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/function_separator_climate.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder />
+				</ImageWidget> 
+				<!-- <ImageWidget>
+					<ID>img_air_distribution_stroke_3controls</ID>
+					<UUID />
+					<Location>
+						<LocationX>246</LocationX>
+						<LocationY>208</LocationY>
+					</Location>
+					<Size>
+						<SizeW>308</SizeW>
+						<SizeH>107</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/air_distribution_stroke_3controls.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+				</ImageWidget> -->
+				<ImageWidget>
+					<ID>img_climate_airfoot_activated_large</ID>
+					<UUID />
+					<Location>
+						<LocationX>450</LocationX>
+						<LocationY>208</LocationY>
+					</Location>
+					<Size>
+						<SizeW>104</SizeW>
+						<SizeH>107</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_airfoot_inactive_large.png</NormalURL>
+					<FocusURL>ThemeB/climate_airfoot_activated_large.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/climate_airfoot_inactive_large.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/climate_airfoot_activated_large.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/climate_airfoot_inactive_press_large.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/climate_airfoot_active_press_large.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_climate_qsp_air_face</ID>
+					<UUID />
+					<Location>
+						<LocationX>350</LocationX>
+						<LocationY>208</LocationY>
+					</Location>
+					<Size>
+						<SizeW>100</SizeW>
+						<SizeH>107</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_airface_inactive.png</NormalURL>
+					<FocusURL>ThemeB/climate_airface_activated.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/climate_airface_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/climate_airface_activated.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/climate_airface_inactive_press.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/climate_airface_active_press.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_climate_deforst_windshield</ID>
+					<UUID />
+					<Location>
+						<LocationX>246</LocationX>
+						<LocationY>208</LocationY>
+					</Location>
+					<Size>
+						<SizeW>104</SizeW>
+						<SizeH>107</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_defrost_windshield_inactive.png</NormalURL>
+					<FocusURL>ThemeB/climate_defrost_windshield_activated.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/climate_defrost_windshield_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/climate_defrost_windshield_activated.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/climate_defrost_windshield_inactive_press.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/climate_defrost_windshield_active_press.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				
+				<!--    enum button 1 start -->
+				<EnumButtonWidget>
+					<ID>climate_on_off</ID>
+					<UUID />
+					<EnumButtonWidgetState>
+						<DataValue />
+						<ImageWidget>
+							<ID>img_climate_toggle_selector</ID>
+							<UUID />
+							<Location>
+								<LocationX>23</LocationX>
+								<LocationY>315</LocationY>
+							</Location>
+							<Size>
+								<SizeW>151</SizeW>
+								<SizeH>95</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+							<FocusURL>ThemeB/climate_button_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>2</ZOrder>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL>ThemeB/climate_button_active.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL>ThemeB/climate_button_active_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+						</ImageWidget>
+						<LabelWidget>
+							<ID>climate_on_off</ID>
+							<UUID />
+							<Value>
+								<Encoding>0</Encoding>
+								<Text />
+							</Value>
+							<Font>
+								<Name>GMSansUI-Light</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>2</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<TextWrap>0</TextWrap>
+							<Location>
+								<LocationX>32</LocationX>
+								<LocationY>349</LocationY>
+							</Location>
+							<Size>
+								<SizeW>131</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>11</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<LiteralValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelWidget>
+					</EnumButtonWidgetState>
+				</EnumButtonWidget>
+				<!--    enum button 1 end -->
+				<!--    enum button 2 start -->
+				<EnumButtonWidget>
+					<ID>climate_ac_big</ID>
+					<UUID />
+					<EnumButtonWidgetState>
+						<DataValue />
+						<ImageWidget>
+							<ID>img_climate_toggle_selector</ID>
+							<UUID />
+							<Location>
+								<LocationX>174</LocationX>
+								<LocationY>315</LocationY>
+							</Location>
+							<Size>
+								<SizeW>151</SizeW>
+								<SizeH>95</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+							<FocusURL>ThemeB/climate_button_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>11</ZOrder>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL>ThemeB/climate_button_active.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL>ThemeB/climate_button_active_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+						</ImageWidget>
+						<LabelWidget>
+							<ID>climate_ac_big</ID>
+							<UUID />
+							<Value>
+								<Encoding>0</Encoding>
+								<Text />
+							</Value>
+							<Font>
+								<Name>GMSansUI-Light</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>2</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<TextWrap>0</TextWrap>
+							<Location>
+								<LocationX>183</LocationX>
+								<LocationY>349</LocationY>
+							</Location>
+							<Size>
+								<SizeW>131</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>1</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<LiteralValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelWidget>
+					</EnumButtonWidgetState>
+				</EnumButtonWidget>
+				<!--    enum button 2 end -->
+				<!--    enum button 3 start -->
+				<EnumButtonWidget>
+					<ID>climate_auto_small1</ID>
+					<UUID />
+					<EnumButtonWidgetState>
+						<DataValue />
+						<ImageWidget>
+							<ID>img_climate_toggle_selector</ID>
+							<UUID />
+							<Location>
+								<LocationX>325</LocationX>
+								<LocationY>315</LocationY>
+							</Location>
+							<Size>
+								<SizeW>151</SizeW>
+								<SizeH>95</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+							<FocusURL>ThemeB/climate_button_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>18</ZOrder>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL>ThemeB/climate_button_active.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL>ThemeB/climate_button_active_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+						</ImageWidget>
+						<LabelWidget>
+							<ID>climate_auto_small1</ID>
+							<UUID />
+							<Value>
+								<Encoding>0</Encoding>
+								<Text />
+							</Value>
+							<Font>
+								<Name>GMSansUI-Light</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>2</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<TextWrap>0</TextWrap>
+							<Location>
+								<LocationX>334</LocationX>
+								<LocationY>349</LocationY>
+							</Location>
+							<Size>
+								<SizeW>131</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>1</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<LiteralValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelWidget>
+					</EnumButtonWidgetState>
+				</EnumButtonWidget>
+				<!--    enum button 3 end -->
+				<!--    </ButtonWidget> -->
+				<ImageWidget>
+					<ID>img_climate_toggle_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>476</LocationX>
+						<LocationY>315</LocationY>
+					</Location>
+					<Size>
+						<SizeW>151</SizeW>
+						<SizeH>95</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+					<FocusURL>ThemeB/climate_button_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/climate_button_inactive_press.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/climate_button_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/climate_button_active_press.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_recirculation_icon</ID>
+					<UUID />
+					<Location>
+						<LocationX>524</LocationX>
+						<LocationY>356</LocationY>
+					</Location>
+					<Size>
+						<SizeW>56</SizeW>
+						<SizeH>25</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/recirculation_icon.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>26</ZOrder>
+				</ImageWidget>
+				<!--    <ButtonWidget> -->
+				<EnumButtonWidget>
+					<ID>climate_sync_big</ID>
+					<UUID />
+					<EnumButtonWidgetState>
+						<DataValue />
+						<ImageWidget>
+							<ID>img_climate_toggle_selector</ID>
+							<UUID />
+							<Location>
+								<LocationX>627</LocationX>
+								<LocationY>315</LocationY>
+							</Location>
+							<Size>
+								<SizeW>151</SizeW>
+								<SizeH>95</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+							<FocusURL>ThemeB/climate_button_active.png</FocusURL>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>18</ZOrder>
+							<SelectorState>
+								<DataValue>0</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>1</DataValue>
+								<NormalURL>ThemeB/climate_button_inactive_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>2</DataValue>
+								<NormalURL>ThemeB/climate_button_active.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+							<SelectorState>
+								<DataValue>3</DataValue>
+								<NormalURL>ThemeB/climate_button_active_press.png</NormalURL>
+								<FocusURL />
+							</SelectorState>
+						</ImageWidget>
+						<LabelWidget>
+							<ID>climate_sync_big</ID>
+							<UUID />
+							<Value>
+								<Encoding>0</Encoding>
+								<Text />
+							</Value>
+							<Font>
+								<Name>GMSansUI-Light</Name>
+								<Size>28</Size>
+								<Decoration>0</Decoration>
+								<TextAlign>2</TextAlign>
+								<Color>255,255,255</Color>
+								<TextDirection>0</TextDirection>
+							</Font>
+							<FocusFont>
+								<Name />
+								<Size />
+								<Decoration />
+								<TextAlign />
+								<Color />
+								<TextDirection />
+							</FocusFont>
+							<TextWrap>0</TextWrap>
+							<Location>
+								<LocationX>636</LocationX>
+								<LocationY>349</LocationY>
+							</Location>
+							<Size>
+								<SizeW>131</SizeW>
+								<SizeH>38</SizeH>
+							</Size>
+							<TabOrder>
+								<TabV />
+								<TabH />
+							</TabOrder>
+							<Alpha>100</Alpha>
+							<InputWidgetMapping>
+								<UserInput />
+								<WidgetCallback />
+							</InputWidgetMapping>
+							<OnFocusCallback />
+							<ZOrder>1</ZOrder>
+							<SelectorState>
+								<DataValue />
+								<StaticValue />
+								<LiteralValue />
+								<Font>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</Font>
+								<FocusFont>
+									<Name />
+									<Size />
+									<Decoration />
+									<TextAlign />
+									<Color />
+									<TextDirection />
+								</FocusFont>
+							</SelectorState>
+						</LabelWidget>
+					</EnumButtonWidgetState>
+				</EnumButtonWidget>
+				<!-- temp up and down left start -->
+				<ImageWidget>
+					<ID>climate_temp_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>39</LocationX>
+						<LocationY>145</LocationY>
+					</Location>
+					<Size>
+						<SizeW>99</SizeW>
+						<SizeH>76</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/temp_up_normal.png</NormalURL>
+					<FocusURL>ThemeB/temp_up_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>climate_temp_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>39</LocationX>
+						<LocationY>223</LocationY>
+					</Location>
+					<Size>
+						<SizeW>99</SizeW>
+						<SizeH>76</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/temp_down_normal.png</NormalURL>
+					<FocusURL>ThemeB/temp_down_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<!-- <ImageWidget>
+					<ID>img_climate_temp_divider</ID>
+					<UUID />
+					<Location>
+						<LocationX>53</LocationX>
+						<LocationY>222</LocationY>
+					</Location>
+					<Size>
+						<SizeW>64</SizeW>
+						<SizeH>1</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_temp_divider.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>11</ZOrder>
+				</ImageWidget> -->
+				<!-- temp up and down left end -->
+				<LabelWidget>
+					<ID>dyn_climate_current_temp_left_big</ID>
+					<UUID />
+					<Value>
+						<Encoding>0</Encoding>
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Light</Name>
+						<Size>49</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255,255,255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>0</TextWrap>
+					<Location>
+						<LocationX>42</LocationX>
+						<LocationY>80</LocationY>
+					</Location>
+					<Size>
+						<SizeW>110</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>3</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<StaticValue>climate_hi</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>climate_lo</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>climate_off</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>dyn_climate_current_temp_left_big</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<!-- progress end -->
+				<!-- temp up and down right start -->
+				<ImageWidget>
+					<ID>climate_temp_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>668</LocationX>
+						<LocationY>145</LocationY>
+					</Location>
+					<Size>
+						<SizeW>99</SizeW>
+						<SizeH>76</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/temp_up_normal.png</NormalURL>
+					<FocusURL>ThemeB/temp_up_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>13</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>climate_temp_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>668</LocationX>
+						<LocationY>223</LocationY>
+					</Location>
+					<Size>
+						<SizeW>99</SizeW>
+						<SizeH>76</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/temp_down_normal.png</NormalURL>
+					<FocusURL>ThemeB/temp_down_highlight.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>14</ZOrder>
+				</ImageWidget>
+				<!-- <ImageWidget>
+					<ID>img_climate_temp_divider</ID>
+					<UUID />
+					<Location>
+						<LocationX>683</LocationX>
+						<LocationY>222</LocationY>
+					</Location>
+					<Size>
+						<SizeW>64</SizeW>
+						<SizeH>1</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_temp_divider.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>14</ZOrder>
+				</ImageWidget> -->
+				<!-- temp up and down right end -->
+				<!-- progress end -->
+				<LabelWidget>
+					<ID>dyn_climate_current_temp_left_big</ID>
+					<UUID />
+					<Value>
+						<Encoding>0</Encoding>
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Light</Name>
+						<Size>49</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255,255,255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>0</TextWrap>
+					<Location>
+						<LocationX>667</LocationX>
+						<LocationY>80</LocationY>
+					</Location>
+					<Size>
+						<SizeW>110</SizeW>
+						<SizeH>65</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>7</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<StaticValue>climate_hi</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<StaticValue>climate_lo</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<StaticValue>climate_off</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<StaticValue>dyn_climate_current_temp_left_big</StaticValue>
+						<LiteralValue />
+						<Font>
+							<Name>GMSansUI-Light</Name>
+							<Size>49</Size>
+							<Decoration>0</Decoration>
+							<TextAlign>2</TextAlign>
+							<Color>255,255,255</Color>
+							<TextDirection>0</TextDirection>
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<!-- fan_up and down_selector start -->
+				<ImageWidget>
+					<ID>climate_fan_down_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>201</LocationX>
+						<LocationY>103</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>72</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/fan_indicator_down_inactive.png</NormalURL>
+					<FocusURL>ThemeB/fan_indicator_down_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>15</ZOrder>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>climate_fan_up_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>533</LocationX>
+						<LocationY>103</LocationY>
+					</Location>
+					<Size>
+						<SizeW>72</SizeW>
+						<SizeH>72</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/fan_indicator_up_inactive.png</NormalURL>
+					<FocusURL>ThemeB/fan_indicator_up_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>16</ZOrder>
+					<BehaviorState>
+						<BehaviorStateValue />
+						<BehaviorProperty />
+						<BehaviorPropertyValue />
+						<ChangeAnimation />
+					</BehaviorState>
+				</ImageWidget>
+				<!-- fan_up and down_selector end -->
+				<!-- progress start -->
+				<ProgressBarWidget>
+					<ID>climate_progressbar_selector</ID>
+					<UUID />
+					<Value>60</Value>
+					<Location>
+						<LocationX>273</LocationX>
+						<LocationY>103</LocationY>
+					</Location>
+					<Size>
+						<SizeW>260</SizeW>
+						<SizeH>72</SizeH>
+					</Size>
+					<ProgressBarURL>ThemeB/climate_progress_fill.png</ProgressBarURL>
+					<ProgressBarURLLocation>
+						<LocationX>27</LocationX>
+						<LocationY>33</LocationY>
+					</ProgressBarURLLocation>
+					<ProgressBarURLSize>
+						<SizeW>205</SizeW>
+						<SizeH>4</SizeH>
+					</ProgressBarURLSize>
+					<HousingURL>ThemeB/climate_progress_track.png</HousingURL>
+					<HousingURLLocation>
+						<LocationX>27</LocationX>
+						<LocationY>33</LocationY>
+					</HousingURLLocation>
+					<HousingURLSize>
+						<SizeW>205</SizeW>
+						<SizeH>4</SizeH>
+					</HousingURLSize>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>17</ZOrder>
+					<Orientation>0</Orientation>
+				</ProgressBarWidget>
+
+				<ImageWidget>
+					<ID>img_statusbar_bg</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>410</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>70</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_bg.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>410</LocationY>
+					</Location>
+					<Size>
+						<SizeW>800</SizeW>
+						<SizeH>2</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>2</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_home_button_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>0</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>70</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/home_inactive.png</NormalURL>
+					<FocusURL>ThemeB/home_active.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>3</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>70</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>4</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_sb_audio_icon</ID>
+					<UUID />
+					<Location>
+						<LocationX>71</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>70</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/audio_normal.png</NormalURL>
+					<FocusURL>ThemeB/audio_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>5</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/audio_highlight.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/audio_mute.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/audio_normal.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/audio_pressed.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_phone_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>141</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>70</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/phone_inactive.png</NormalURL>
+					<FocusURL>ThemeB/phone_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>7</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/phone_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/phone_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/phone_pressed.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/phone_ic_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL>ThemeB/phone_ic_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL>ThemeB/phone_mute.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>6</DataValue>
+						<NormalURL>ThemeB/phone_on_hold_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>7</DataValue>
+						<NormalURL>ThemeB/phone_on_hold_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>8</DataValue>
+						<NormalURL>ThemeB/phone_wireless_charging_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>9</DataValue>
+						<NormalURL>ThemeB/phone_wireless_charging_foreign_obj.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>10</DataValue>
+						<NormalURL>ThemeB/phone_wireless_charging_overtemp.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>11</DataValue>
+						<NormalURL>ThemeB/phone_wireless_overtemp_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>12</DataValue>
+						<NormalURL>ThemeB/phone_wireless_overtempactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>13</DataValue>
+						<NormalURL>ThemeB/phone_wireless_pressed.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>14</DataValue>
+						<NormalURL>ThemeB/phone_wireless_unknown.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_onstartbt_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>211</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>70</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/onstar_inactive.png</NormalURL>
+					<FocusURL>ThemeB/onstar_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>6</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/onstar_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/onstar_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/onstar_pressed.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_weather_icon</ID>
+					<UUID />
+					<Location>
+						<LocationX>281</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>70</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/climate_active.png</NormalURL>
+					<FocusURL>ThemeB/climate_pressed.png</FocusURL>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>8</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/climate_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/climate_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/climate_pressed.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_alert_popup_bg</ID>
+					<UUID />
+					<Location>
+						<LocationX>351</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>287</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/alert_popup_bg.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>9</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_ui_3_big</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>21</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>2</TextAlign>
+						<Color>255,255,255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>425</LocationX>
+						<LocationY>431</LocationY>
+					</Location>
+					<Size>
+						<SizeW>11</SizeW>
+						<SizeH>29</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>10</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_bluetooth_icon</ID>
+					<UUID />
+					<Location>
+						<LocationX>461</LocationX>
+						<LocationY>433</LocationY>
+					</Location>
+					<Size>
+						<SizeW>11</SizeW>
+						<SizeH>19</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bluetooth_icon.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>11</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>wifi_signal_strength</ID>
+					<UUID />
+					<Location>
+						<LocationX>562</LocationX>
+						<LocationY>447</LocationY>
+					</Location>
+					<Size>
+						<SizeW>58</SizeW>
+						<SizeH>10</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/wifi_signal_strength_3.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>11</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/wifi_signal_strength_0.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/wifi_signal_strength_1.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/wifi_signal_strength_2.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/wifi_signal_strength_3.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL>ThemeB/wifi_signal_strength_4.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL>ThemeB/wifi_signal_strength_5.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_tty_icon</ID>
+					<UUID />
+					<Location>
+						<LocationX>520</LocationX>
+						<LocationY>438</LocationY>
+					</Location>
+					<Size>
+						<SizeW>36</SizeW>
+						<SizeH>13</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/tty_icon.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>9</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>bt_phone_batt</ID>
+					<UUID />
+					<Location>
+						<LocationX>499</LocationX>
+						<LocationY>431</LocationY>
+					</Location>
+					<Size>
+						<SizeW>14</SizeW>
+						<SizeH>26</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bt_batt_charge3.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>8</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/bt_batt_charge3.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/bt_batt_charge1.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/bt_batt_charge2.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/bt_batt_charge4.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL>ThemeB/bt_batt_charge5.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL>ThemeB/bt_batt_charge6.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_wifi11</ID>
+					<UUID />
+					<Location>
+						<LocationX>520</LocationX>
+						<LocationY>437</LocationY>
+					</Location>
+					<Size>
+						<SizeW>35</SizeW>
+						<SizeH>15</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/wifi11.png</NormalURL>
+					<FocusURL />
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>11</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/wifi11.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/wifi_logo_active_hotspot.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>bt_signal_strength</ID>
+					<UUID />
+					<Location>
+						<LocationX>466</LocationX>
+						<LocationY>431</LocationY>
+					</Location>
+					<Size>
+						<SizeW>27</SizeW>
+						<SizeH>26</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/bt_signal_strength3.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>12</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/bt_signal_strength3.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/bt_signal_strength0.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/bt_signal_strength1.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/bt_signal_strength2.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL>ThemeB/bt_signal_strength4.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL>ThemeB/bt_signal_strength5.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_roaming</ID>
+					<UUID />
+					<Location>
+						<LocationX>619</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size>
+						<SizeW>10</SizeW>
+						<SizeH>8</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/roaming.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>13</ZOrder>
+				</ImageWidget>
+				<!-- <ImageWidget>
+					<ID>img_data_transfer_signal</ID><UUID></UUID>
+					<Location>
+						<LocationX>524</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size>
+						<SizeW>33</SizeW>
+						<SizeH>8</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/data_transfer_signal.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>14</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<NormalUrl />
+						<FocusUrl />
+					</SelectorState>
+				</ImageWidget> -->
+				<ImageWidget>
+					<ID>onstar_cell_network_speed</ID>
+					<UUID />
+					<Location>
+						<LocationX>565</LocationX>
+						<LocationY>431</LocationY>
+					</Location>
+					<Size>
+						<SizeW>51</SizeW>
+						<SizeH>12</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/fourg_lte.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>15</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/fourg_lte.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/four_g.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/three_g.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/two_g.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>location_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>601</LocationX>
+						<LocationY>425</LocationY>
+					</Location>
+					<Size>
+						<SizeW>40</SizeW>
+						<SizeH>39</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/location_enabled.png</NormalURL>
+					<FocusURL />
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>16</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/location_enabled.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/location_nogps.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/location_disabled.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_sb_temperature</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>31</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>1</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>632</LocationX>
+						<LocationY>426</LocationY>
+					</Location>
+					<Size>
+						<SizeW>65</SizeW>
+						<SizeH>42</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>17</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_statusbar_timetemp_separator</ID>
+					<UUID />
+					<Location>
+						<LocationX>700</LocationX>
+						<LocationY>430</LocationY>
+					</Location>
+					<Size>
+						<SizeW>2</SizeW>
+						<SizeH>31</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/statusbar_timetemp_separator.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>dyn_sb_time</ID>
+					<UUID />
+					<Value>
+						<Encoding />
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>31</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>0</TextAlign>
+						<Color>255, 255, 255</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>1</TextWrap>
+					<Location>
+						<LocationX>705</LocationX>
+						<LocationY>426</LocationY>
+					</Location>
+					<Size>
+						<SizeW>92</SizeW>
+						<SizeH>42</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<Alpha>100</Alpha>
+					<ZOrder>19</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_command_control_icon</ID>
+					<UUID />
+					<Location>
+						<LocationX>414</LocationX>
+						<LocationY>431</LocationY>
+					</Location>
+					<Size>
+						<SizeW>32</SizeW>
+						<SizeH>33</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/command_control_icon.png</NormalURL>
+					<FocusURL />
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_energy_selector</ID>
+					<UUID />
+					<Location>
+						<LocationX>281</LocationX>
+						<LocationY>412</LocationY>
+					</Location>
+					<Size>
+						<SizeW>70</SizeW>
+						<SizeH>68</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/energy_inactive.png</NormalURL>
+					<FocusURL>ThemeB/energy_pressed.png</FocusURL>
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>0</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/energy_inactive.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/energy_pressed.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/energy_active.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_data_transfer_signal</ID>
+					<UUID />
+					<Location>
+						<LocationX>413</LocationX>
+						<LocationY>424</LocationY>
+					</Location>
+					<Size>
+						<SizeW>34</SizeW>
+						<SizeH>8</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/data_transfer_signal.png</NormalURL>
+					<FocusURL />
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>1</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_five_bar</ID>
+					<UUID />
+					<Location>
+						<LocationX>413</LocationX>
+						<LocationY>437</LocationY>
+					</Location>
+					<Size>
+						<SizeW>35</SizeW>
+						<SizeH>29</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/five_bar.png</NormalURL>
+					<FocusURL />
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+					<SelectorState>
+						<DataValue>0</DataValue>
+						<NormalURL>ThemeB/five_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>1</DataValue>
+						<NormalURL>ThemeB/no_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>2</DataValue>
+						<NormalURL>ThemeB/one_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>3</DataValue>
+						<NormalURL>ThemeB/two_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>4</DataValue>
+						<NormalURL>ThemeB/three_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>5</DataValue>
+						<NormalURL>ThemeB/four_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+					<SelectorState>
+						<DataValue>6</DataValue>
+						<NormalURL>ThemeB/five_bar.png</NormalURL>
+						<FocusURL />
+					</SelectorState>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_update_down</ID>
+					<UUID />
+					<Location>
+						<LocationX>419</LocationX>
+						<LocationY>431</LocationY>
+					</Location>
+					<Size>
+						<SizeW>22</SizeW>
+						<SizeH>32</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/update_down.png</NormalURL>
+					<FocusURL />
+					<Alpha>0</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>16</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_left_side_autoline_three_button</ID>
+					<UUID />
+					<Location>
+						<LocationX>244</LocationX>
+						<LocationY>206</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>38</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/left_side_autoline_three_button.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>18</ZOrder>
+				</ImageWidget>
+				<ImageWidget>
+					<ID>img_right_side_autoline_three_button</ID>
+					<UUID />
+					<Location>
+						<LocationX>493</LocationX>
+						<LocationY>206</LocationY>
+					</Location>
+					<Size>
+						<SizeW>62</SizeW>
+						<SizeH>38</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/right_side_autoline_three_button.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>19</ZOrder>
+				</ImageWidget>
+				<LabelWidget>
+					<ID>climate_max_short</ID>
+					<UUID />
+					<Value>
+						<Encoding>0</Encoding>
+						<Text />
+					</Value>
+					<Font>
+						<Name>GMSansUI-Regular</Name>
+						<Size>23</Size>
+						<Decoration>0</Decoration>
+						<TextAlign>1</TextAlign>
+						<Color>235,175,41</Color>
+						<TextDirection>0</TextDirection>
+					</Font>
+					<FocusFont>
+						<Name />
+						<Size />
+						<Decoration />
+						<TextAlign />
+						<Color />
+						<TextDirection />
+					</FocusFont>
+					<TextWrap>0</TextWrap>
+					<Location>
+						<LocationX>295</LocationX>
+						<LocationY>181</LocationY>
+					</Location>
+					<Size>
+						<SizeW>98</SizeW>
+						<SizeH>32</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>20</ZOrder>
+					<SelectorState>
+						<DataValue />
+						<StaticValue />
+						<LiteralValue />
+						<Font>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</Font>
+						<FocusFont>
+							<Name />
+							<Size />
+							<Decoration />
+							<TextAlign />
+							<Color />
+							<TextDirection />
+						</FocusFont>
+					</SelectorState>
+				</LabelWidget>
+				<ImageWidget>
+					<ID>img_windshield_small</ID>
+					<UUID />
+					<Location>
+						<LocationX>413</LocationX>
+						<LocationY>178</LocationY>
+					</Location>
+					<Size>
+						<SizeW>49</SizeW>
+						<SizeH>28</SizeH>
+					</Size>
+					<TabOrder>
+						<TabV />
+						<TabH />
+					</TabOrder>
+					<NormalURL>ThemeB/windshield_small.png</NormalURL>
+					<FocusURL />
+					<Alpha>100</Alpha>
+					<InputWidgetMapping>
+						<UserInput />
+						<WidgetCallback />
+					</InputWidgetMapping>
+					<OnFocusCallback />
+					<ZOrder>19</ZOrder>
+				</ImageWidget>
+			</Screen>
+		</View>
+	</Display>
+</GMXML>
