@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>Mycombobox.qml</file>
+        <file>Longtext.qml</file>
+        <file>Delegate1.qml</file>
+        <file>Tabview.qml</file>
+        <file>Calendar.qml</file>
+        <file>Button.qml</file>
+        <file>CalendarObject.qml</file>
+        <file>ListDeleagte.qml</file>
+        <file>SortedList.qml</file>
+        <file>Text1.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>constant.js</file>
+        <file>MyComboBox.qml</file>
+        <file>MyTabView.qml</file>
+        <file>MyLongText.qml</file>
+        <file>MyAZListView.qml</file>
+        <file>ContactModel.qml</file>
+        <file>MyCalendar.qml</file>
+        <file>MyRollDateTime.qml</file>
+        <file>MyCalendarV2.qml</file>
+    </qresource>
+</RCC>

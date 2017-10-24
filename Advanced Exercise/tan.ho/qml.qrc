@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>ComboBox.qml</file>
+        <file>LongText.qml</file>
+        <file>CalendarSS.qml</file>
+        <file>AZlistcontact.qml</file>
+        <file>arrow down 1.png</file>
+        <file>arrow down 2.png</file>
+        <file>ShowListCombo.qml</file>
+        <file>scroll-bar-arrows.png</file>
+        <file>PathViewCalendar.qml</file>
+        <file>GridViewCalendar.qml</file>
+        <file>left.png</file>
+        <file>right.png</file>
+    </qresource>
+</RCC>
